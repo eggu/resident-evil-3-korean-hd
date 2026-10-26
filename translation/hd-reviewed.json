@@ -1,0 +1,406 @@
+{
+  "provenance": "Reviewed source text and page classification are in documents-reviewed.json. This plan contains only the four PC FILEGJ03..06 replacements and the native status-label atlas.",
+  "pages": [
+    {
+      "id": "controls-3",
+      "source": "DATA_AJ/ETC2/FILEGJ03.TIM",
+      "source_sha256": "7de52087d47e3028570183b411dc1f32dce4bf84401e606f8c6ea0b4bcf24c87",
+      "reviewed": true,
+      "review": "visually transcribed from Korean SD bitmap",
+      "lines": [
+        {
+          "text": "생존에 도움이 되길 바랍니다.",
+          "position": [
+            0,
+            0
+          ],
+          "size": 11
+        },
+        {
+          "text": "<주변 사물 공격>",
+          "position": [
+            0,
+            32
+          ],
+          "size": 11
+        },
+        {
+          "text": "드럼통이나 폭탄을 쏘면 다양한 효과를",
+          "position": [
+            0,
+            48
+          ],
+          "size": 11
+        },
+        {
+          "text": "얻을 수 있습니다.",
+          "position": [
+            0,
+            64
+          ],
+          "size": 11
+        },
+        {
+          "text": "·조준 버튼으로 사물을 겨눕니다.",
+          "position": [
+            0,
+            80
+          ],
+          "size": 11
+        },
+        {
+          "text": "<퀵 턴>",
+          "position": [
+            0,
+            112
+          ],
+          "size": 11
+        },
+        {
+          "text": "몸을 빠르게 180도 돌립니다.",
+          "position": [
+            0,
+            128
+          ],
+          "size": 11
+        },
+        {
+          "text": "·후진 중 취소 버튼을 누릅니다.",
+          "position": [
+            0,
+            144
+          ],
+          "size": 11
+        }
+      ],
+      "document": {
+        "file_id": 0,
+        "page": 1,
+        "pc_controls": true
+      },
+      "logical_size": [
+        256,
+        176
+      ]
+    },
+    {
+      "id": "controls-4",
+      "source": "DATA_AJ/ETC2/FILEGJ04.TIM",
+      "source_sha256": "cbd3e2b333cfd2b6c38834e058398b8ef980e8575299096e63014350783ac7e6",
+      "reviewed": true,
+      "review": "visually transcribed from Korean SD bitmap",
+      "lines": [
+        {
+          "text": "<긴급 탈출>",
+          "position": [
+            0,
+            0
+          ],
+          "size": 11
+        },
+        {
+          "text": "적에게 붙잡혔을 때 빠르게 벗어날 수",
+          "position": [
+            0,
+            16
+          ],
+          "size": 11
+        },
+        {
+          "text": "있습니다.",
+          "position": [
+            0,
+            32
+          ],
+          "size": 11
+        },
+        {
+          "text": "·방향키와 버튼을 빠르게 연타합니다.",
+          "position": [
+            0,
+            48
+          ],
+          "size": 11
+        },
+        {
+          "text": "<긴급 회피>",
+          "position": [
+            0,
+            80
+          ],
+          "size": 11
+        },
+        {
+          "text": "공격받기 직전에 적의 공격을 피할 수",
+          "position": [
+            0,
+            96
+          ],
+          "size": 11
+        },
+        {
+          "text": "있습니다.",
+          "position": [
+            0,
+            112
+          ],
+          "size": 11
+        },
+        {
+          "text": "·조준 버튼을 누릅니다.",
+          "position": [
+            0,
+            128
+          ],
+          "size": 11
+        },
+        {
+          "text": "·조준 중 결정 버튼을 누릅니다.",
+          "position": [
+            0,
+            144
+          ],
+          "size": 11
+        }
+      ],
+      "document": {
+        "file_id": 0,
+        "page": 2,
+        "pc_controls": true
+      },
+      "logical_size": [
+        256,
+        176
+      ]
+    },
+    {
+      "id": "controls-5",
+      "source": "DATA_AJ/ETC2/FILEGJ05.TIM",
+      "source_sha256": "e91eaa22a41b05697831ad2a4614e8197ce9870071b6124216665000e3b0fcb0",
+      "reviewed": true,
+      "review": "visually transcribed from Korean SD bitmap",
+      "lines": [
+        {
+          "text": "<오르기/내리기>",
+          "position": [
+            0,
+            0
+          ],
+          "size": 11
+        },
+        {
+          "text": "낮은 턱을 오르내릴 수 있습니다.",
+          "position": [
+            0,
+            16
+          ],
+          "size": 11
+        },
+        {
+          "text": "·오르내릴 곳을 향해 전진하며 결정 버튼을",
+          "position": [
+            0,
+            32
+          ],
+          "size": 11
+        },
+        {
+          "text": "누릅니다.",
+          "position": [
+            0,
+            48
+          ],
+          "size": 11
+        },
+        {
+          "text": "<지도>",
+          "position": [
+            0,
+            80
+          ],
+          "size": 11
+        },
+        {
+          "text": "지도 버튼을 누르면 표시됩니다.",
+          "position": [
+            0,
+            96
+          ],
+          "size": 11
+        },
+        {
+          "text": "·실외 지도: 결정 버튼으로 확대/축소",
+          "position": [
+            0,
+            112
+          ],
+          "size": 11
+        },
+        {
+          "text": "·확대 중 방향키로 표시 범위 이동",
+          "position": [
+            0,
+            128
+          ],
+          "size": 11
+        },
+        {
+          "text": "·지도 버튼으로 지도 전환",
+          "position": [
+            0,
+            144
+          ],
+          "size": 11
+        }
+      ],
+      "document": {
+        "file_id": 0,
+        "page": 3,
+        "pc_controls": true
+      },
+      "logical_size": [
+        256,
+        176
+      ]
+    },
+    {
+      "id": "controls-6",
+      "source": "DATA_AJ/ETC2/FILEGJ06.TIM",
+      "source_sha256": "db4b7c7314a75eb0148df27600609abac8fc9be91e4d46800fe94e9c2f85ae3b",
+      "reviewed": true,
+      "review": "visually transcribed from Korean SD bitmap",
+      "lines": [
+        {
+          "text": "<라이브 셀렉션>",
+          "position": [
+            0,
+            0
+          ],
+          "size": 11
+        },
+        {
+          "text": "화면이 바뀌며 두 가지 선택지가 나오는",
+          "position": [
+            0,
+            16
+          ],
+          "size": 11
+        },
+        {
+          "text": "경우가 있습니다.",
+          "position": [
+            0,
+            32
+          ],
+          "size": 11
+        },
+        {
+          "text": "·방향키와 결정 버튼으로 선택합니다.",
+          "position": [
+            0,
+            48
+          ],
+          "size": 11
+        },
+        {
+          "text": "<이벤트 건너뛰기>",
+          "position": [
+            0,
+            80
+          ],
+          "size": 11
+        },
+        {
+          "text": "일부 이벤트는 도중에 끝낼 수 있습니다.",
+          "position": [
+            0,
+            96
+          ],
+          "size": 11
+        },
+        {
+          "text": "·취소 버튼을 누릅니다.",
+          "position": [
+            0,
+            112
+          ],
+          "size": 11
+        }
+      ],
+      "document": {
+        "file_id": 0,
+        "page": 4,
+        "pc_controls": true
+      },
+      "logical_size": [
+        256,
+        176
+      ]
+    },
+    {
+      "id": "status-labels",
+      "source": "DATA_J/ETC2/STMOJIJ.TIM",
+      "source_sha256": "b02800e9c9ea731c79a82ee87423e409ce0b6a2f53c6fd090a85b76138c72156",
+      "reviewed": true,
+      "logical_size": [
+        256,
+        72
+      ],
+      "background": {
+        "path": "hires/misc/1AE56AE1.webp",
+        "sha256": "6ff0230e5caa758434f391ef47fcbbf16adaf33672689e63fc8b77c7a18ecec8"
+      },
+      "erase": [
+        [
+          0,
+          56,
+          256,
+          72
+        ]
+      ],
+      "lines": [
+        {
+          "text": "장비",
+          "position": [
+            4,
+            58
+          ],
+          "size": 11
+        },
+        {
+          "text": "사용",
+          "position": [
+            54,
+            58
+          ],
+          "size": 11
+        },
+        {
+          "text": "조합",
+          "position": [
+            104,
+            58
+          ],
+          "size": 11
+        },
+        {
+          "text": "분해",
+          "position": [
+            152,
+            58
+          ],
+          "size": 11
+        },
+        {
+          "text": "조사",
+          "position": [
+            200,
+            58
+          ],
+          "size": 11
+        }
+      ],
+      "status": true
+    }
+  ]
+}

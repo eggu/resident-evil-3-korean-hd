@@ -1,0 +1,4 @@
+Pillow==12.3.0
+fonttools==4.66.1
+pefile==2024.8.26
+numpy==2.5.4

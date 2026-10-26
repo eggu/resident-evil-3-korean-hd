@@ -1,0 +1,10 @@
+{
+  "_note": "Hangul -> KRF2 font token (lead byte + code), read visually from the patched atlas layers (EB/EC: page 0x1D CLUT 490 low 2 bits; ED/EE: page 0x1C CLUT 500 high 2 bits). Anchors: 핸드건=EB85 EDB3 EDB9, 라이터=ED3E ED25 EDCE.",
+  "설": "ED73", "정": "EDC9", "상": "EDBB", "태": "EB6B", "화": "EDD7", "면": "ED67",
+  "취": "EDDD", "소": "EDBC", "대": "ED4A", "시": "ED31", "결": "EB65", "공": "ED62",
+  "격": "EB1D", "지": "ED2B", "도": "ED46", "겨": "EDD8", "누": "ED70", "기": "ED2C",
+  "적": "EDD4", "전": "EDAF", "체": "EDE0", "조": "EDB7", "준": "EB91", "환": "EB08",
+  "회": "ED83", "반": "EE05", "계": "EDD1", "후": "ED8E", "진": "EDCD", "나": "ED45",
+  "가": "ED27", "변": "EC19", "경": "EDE3", "확": "EE28", "인": "ED50", "안": "ED57",
+  "함": "EB94", "일": "ED49"
+}

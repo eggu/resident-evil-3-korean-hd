@@ -1,0 +1,252 @@
+{
+  "source_sha256": "b02800e9c9ea731c79a82ee87423e409ce0b6a2f53c6fd090a85b76138c72156",
+  "exe_sha256": "b5215af19ea062770bc1c941ea1dd17670cd86362c43a31289ff5bb0bf7e2357",
+  "ddraw_sha256": "8ef09511a5612574b240e602b19bd1692a2c33bd0c1a5fab1348738c70c64423",
+  "method": "Native SourceNext LoadTIM relocation/upload capture with standard TIM-header parser stub; native REbirth scalar palette, 4bpp row conversion and registered256x72 croppedCRC emulated; activeGPU palette row still unobserved, all9sourcepalette rows enumerated",
+  "uploads": [
+    {
+      "rect": [
+        640,
+        256,
+        64,
+        72
+      ],
+      "sha256": "4b9868a440d6e19fa4883c80c1414314e30b567e73e4ce1a640c3e0a5be58019"
+    },
+    {
+      "rect": [
+        304,
+        484,
+        16,
+        9
+      ],
+      "sha256": "128b8722c78e636ee708efd13487a7770be5ab3b52ddb3c786d83f1564cf2845"
+    }
+  ],
+  "regions": [
+    [
+      0,
+      0,
+      256,
+      256
+    ],
+    [
+      0,
+      0,
+      256,
+      240
+    ],
+    [
+      0,
+      0,
+      256,
+      216
+    ],
+    [
+      0,
+      0,
+      256,
+      192
+    ],
+    [
+      0,
+      0,
+      128,
+      256
+    ],
+    [
+      0,
+      0,
+      256,
+      72
+    ],
+    [
+      160,
+      64,
+      96,
+      192
+    ],
+    [
+      0,
+      0,
+      64,
+      256
+    ],
+    [
+      0,
+      42,
+      160,
+      86
+    ],
+    [
+      80,
+      192,
+      176,
+      64
+    ]
+  ],
+  "palettes": [
+    {
+      "palette": 0,
+      "clut_rect": [
+        304,
+        484,
+        16,
+        1
+      ],
+      "key": "CC541949",
+      "path": "hires/misc/CC541949.webp",
+      "native_rgba_sha256": "c36225f61ef427abfa25e9cf598dd49e421fe141b3564935c9cb44e5306499c9",
+      "foreground": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "palette": 1,
+      "clut_rect": [
+        304,
+        485,
+        16,
+        1
+      ],
+      "key": "8320A534",
+      "path": "hires/misc/8320A534.webp",
+      "native_rgba_sha256": "bbda8a630847bf061436fc9cdbf615f3637976d137fa715f2da43ccad8b437da",
+      "foreground": [
+        255,
+        99,
+        33,
+        255
+      ]
+    },
+    {
+      "palette": 2,
+      "clut_rect": [
+        304,
+        486,
+        16,
+        1
+      ],
+      "key": "FF1D1B0A",
+      "path": "hires/misc/FF1D1B0A.webp",
+      "native_rgba_sha256": "894c17817a49054c81b5e3d3301cff8e02ff32e87d9ebff2685825aa9c0c51bc",
+      "foreground": [
+        74,
+        247,
+        255,
+        255
+      ]
+    },
+    {
+      "palette": 3,
+      "clut_rect": [
+        304,
+        487,
+        16,
+        1
+      ],
+      "key": "CA962E6F",
+      "path": "hires/misc/CA962E6F.webp",
+      "native_rgba_sha256": "91793b4c74e59aea48b14e2e69cbcd2391a238c0dd186f27b1c472f35d221816",
+      "foreground": [
+        74,
+        74,
+        255,
+        255
+      ]
+    },
+    {
+      "palette": 4,
+      "clut_rect": [
+        304,
+        488,
+        16,
+        1
+      ],
+      "key": "8D8340EA",
+      "path": "hires/misc/8D8340EA.webp",
+      "native_rgba_sha256": "435f6d6ab820c19323ac01d5aea846fbfce6ce50031bba101fa1d0dd1ed886f0",
+      "foreground": [
+        74,
+        74,
+        255,
+        255
+      ]
+    },
+    {
+      "palette": 5,
+      "clut_rect": [
+        304,
+        489,
+        16,
+        1
+      ],
+      "key": "A90CA3BA",
+      "path": "hires/misc/A90CA3BA.webp",
+      "native_rgba_sha256": "e503841a924bdf88910c71a8f5941fc007418bfd19fd5d6dbe43cbb11daaf126",
+      "foreground": [
+        74,
+        74,
+        255,
+        255
+      ]
+    },
+    {
+      "palette": 6,
+      "clut_rect": [
+        304,
+        490,
+        16,
+        1
+      ],
+      "key": "BEBEBC1B",
+      "path": "hires/misc/BEBEBC1B.webp",
+      "native_rgba_sha256": "ea226d22e043e1baaa9ada0ef6528483f2d44cb2553edeb7150cabeadc4d4c6d",
+      "foreground": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "palette": 7,
+      "clut_rect": [
+        304,
+        491,
+        16,
+        1
+      ],
+      "key": "DACF3586",
+      "path": "hires/misc/DACF3586.webp",
+      "native_rgba_sha256": "904030883d2d82f314925eed4663dadf9ac02bb586e092a52b1c36d78109d1fb",
+      "foreground": [
+        239,
+        239,
+        239,
+        255
+      ]
+    },
+    {
+      "palette": 8,
+      "clut_rect": [
+        304,
+        492,
+        16,
+        1
+      ],
+      "key": "60A06001",
+      "path": "hires/misc/60A06001.webp",
+      "native_rgba_sha256": "58fdf5f5a3776dd378ac5e040f75929f7208b0d4ee22ce7c9a1d6cc0202b9e44",
+      "foreground": [
+        181,
+        181,
+        181,
+        255
+      ]
+    }
+  ]
+}
