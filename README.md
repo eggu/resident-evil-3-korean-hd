@@ -1,12 +1,7 @@
 # BIOHAZARD 3 Korean HD
 
-Classic REbirth로 실행하는 **SourceNext 일본어판 BIOHAZARD 3 PC**에서 한글로 플레이할 수 있게 해 주는 모드입니다.
-
-- 대사, 아이템, 파일 목록, 문서, 상태 화면, REbirth 메뉴(키 설정, 저장, 불러오기)가 한글로 나옵니다.
-- HD 텍스처는 다음 글꼴로 그립니다.
-  - 글자: Noto Sans KR
-  - 상태 화면 라벨: Noto Sans KR Bold
-  - 문서: Noto Serif KR SemiBold
+Classic REbirth로 실행하는 **BIOHAZARD 3 PC**에서 한글로 플레이할 수 있게 해 주는 모드입니다.
+대사, 아이템, 파일 목록, 문서, 상태 화면, REbirth 메뉴(키 설정, 저장, 불러오기)가 한글로 나옵니다.
 
 ## 설치 (권장)
 
@@ -30,8 +25,6 @@ Classic REbirth로 실행하는 **SourceNext 일본어판 BIOHAZARD 3 PC**에서
 
 ## 직접 빌드
 
-번역은 `translation/`의 전용 데이터에서 빌드합니다.
-
 ```sh
 python -m pip install -r requirements.txt
 python tools/setup.py --game <게임 폴더>          # mod_korean_hd/와 HD 텍스처를 빌드해 설치
@@ -43,8 +36,7 @@ RE3_GAME=<게임 폴더> python -m unittest discover -s tests
 
 ## 크레딧과 권리
 
-- **[Classic REbirth](https://classicrebirth.com/):** Gemini. 모드 수명주기와 ROFS 형식은 [RE3-Mod-SDK](https://github.com/Gemini-Loboto3/RE3-Mod-SDK)를 참고했습니다.
+- **[Classic REbirth](https://classicrebirth.com/)** Gemini. 
 - **글꼴:** Noto Sans KR, Noto Serif KR. SIL Open Font License이며 `assets/fonts/`에 라이선스가 함께 있습니다.
 - **코드:** [LICENSE](LICENSE).
-- **Enhancement Pack:** [Mulderland](https://www.mulderland.com/)
 - **게임:** BIOHAZARD 3는 CAPCOM의 저작물입니다. 이 저장소에는 게임 전체 데이터가 포함되지 않습니다. 번역 그래픽 조각과 엔딩 텍스처 참조 이미지, 배포 zip의 한글 그래픽은 게임에서 파생한 자료입니다.
