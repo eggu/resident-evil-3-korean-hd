@@ -21,6 +21,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 Fonts in assets/fonts/ are licensed separately under the SIL Open Font License
-(see the *-OFL.txt files). translation/documents-reviewed.json contains the
-document text of the Korean patch it was transcribed from and is not covered by
-this license.
+(see the *-OFL.txt files). The translation data (translation/text/,
+translation/graphics/ and translation/documents-reviewed.json) comes from the
+BIOHAZARD 3 Korean patch v1.0.15 and is not covered by this license; neither are
+the game graphics in release packages (CAPCOM's files with that translation applied).

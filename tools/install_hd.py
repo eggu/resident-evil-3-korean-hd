@@ -107,7 +107,7 @@ def documents_step(inst, args):
     run('tools/build_hd.py', '--source', args.game / 'mod_korean_hd', '--plan', 'translation/hd-reviewed.json',
         '--documents', 'translation/documents-reviewed.json', '--game', args.game,
         '--font', FONTS / 'NotoSerifKR-SemiBold.ttf', '--text-style', 'plate', '--output', out)
-    replaced = 0
+    replaced = []
     for row in json.loads((out / 'report.json').read_text())['pages']:
         if row.get('status'):
             continue
@@ -115,11 +115,12 @@ def documents_step(inst, args):
         if dest.exists():  # memo route: only keys REbirth already ships a document for
             inst._save(dest)
             Image.open(out / row['png']).convert('RGBA').save(dest, lossless=True, exact=True)
-            replaced += 1
+            replaced.append(dest.name)
+    (LOCAL / 'doc-memo-installed.txt').write_text(''.join(f'{n}\n' for n in sorted(replaced)))
     # JapaneseEnable=1 keys whole VRAM pages; rebuild them from the memo images just written
     pages = fresh('doc-pages')
     run('tools/build_doc_pages.py', '--game', args.game, '--output', pages)
-    return f'{replaced} memo, {install_set(inst, pages, sorted(p.name for p in pages.glob("*.webp")), "doc-pages-installed.txt")} pages'
+    return f'{len(replaced)} memo, {install_set(inst, pages, sorted(p.name for p in pages.glob("*.webp")), "doc-pages-installed.txt")} pages'
 
 
 STEPS = {'fonts': fonts_step, 'status': status_step, 'documents': documents_step}

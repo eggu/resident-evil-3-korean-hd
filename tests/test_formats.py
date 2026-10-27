@@ -56,3 +56,14 @@ class FormatsTest(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+class TranslationCodecTest(unittest.TestCase):
+    def test_text_round_trips_to_game_bytes(self):
+        from translation import Codec
+        codec = Codec(1)
+        data = bytes.fromhex('fa02fc0000ed24f6ed3c3c3cf6ebe10000fe00')
+        text = codec.decode(data)
+        self.assertNotIn('{ED24}', text)  # glyphs are written as characters
+        self.assertIn('{0000}', text)     # padding runs as one escape
+        self.assertEqual(codec.encode(text), data)

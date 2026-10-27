@@ -159,3 +159,36 @@ def korean_rooms(data):
         take(data, offset, length)
         take(data, dynamic, dynamic_count * 4)
     return entries
+
+
+ONE_BYTE_CONTROLS = (0xF6, 0xF7, 0xFC)  # space, end of an item/file name, line break
+
+
+def text_units(data, start=0, end=None):
+    """(position, bytes) of each glyph or control code (with its argument byte) in game text."""
+    end, i = len(data) if end is None else end, start
+    while i < end:
+        b = data[i]
+        if 0xEB <= b <= 0xF0:
+            n = 2
+        elif b == 0xFE:  # takes an argument byte, except where text follows it directly
+            n = 1 if i + 1 < end and (0xEB <= data[i + 1] <= 0xF0 or data[i + 1] == 0xFE) else 2
+        elif b == 0xEA or b >= 0xF1:
+            n = 1 if b in ONE_BYTE_CONTROLS else 2
+        else:
+            n = 1
+        yield i, data[i:min(i + n, end)]
+        i += n
+
+
+def room_messages(table):
+    """(start, end) of each message in a room table: little-endian offsets, the first ends the list."""
+    offsets = list(struct.unpack_from(f'<{struct.unpack_from("<H", table)[0] // 2}H', table)) + [len(table)]
+    return [(a, b) for a, b in zip(offsets, offsets[1:]) if a < b <= len(table)]
+
+
+def message_glyphs(table, start, end):
+    """(position, code) of glyphs in one message: 'EBxx' tokens, 'xx' plain codes (00 is blank padding)."""
+    for i, unit in text_units(table, start, end):
+        if unit[0] < 0xEA or 0xEB <= unit[0] <= 0xF0 and len(unit) == 2:
+            yield i, unit.hex().upper()

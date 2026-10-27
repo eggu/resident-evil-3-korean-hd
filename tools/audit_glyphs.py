@@ -13,7 +13,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import build_font_hd as F  # noqa: E402
-from formats import korean_rooms  # noqa: E402
+from formats import korean_rooms, message_glyphs, room_messages  # noqa: E402
+from translation import build_files  # noqa: E402
 
 ROOT = F.ROOT
 TOKENS, STAGE_TOKENS = ROOT / 'translation/glyph-tokens.json', ROOT / 'translation/glyph-stage-tokens.json'
@@ -66,18 +67,19 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__.split('\n')[0])
     parser.add_argument('--game', type=Path, required=True)
     parser.add_argument('--texj', type=Path, default=ROOT / 'work/original/DATA_J/ETC2/TEXJ.TIM')
-    parser.add_argument('--korean-files', type=Path, default=ROOT / 'work/extracted/korean_files.bin')
     parser.add_argument('--inherit', action='store_true', help='copy identical-bitmap stage 1 tokens into stage maps')
     args = parser.parse_args()
     table = json.loads(TOKENS.read_text(encoding='utf-8'))
     stage_doc = json.loads(STAGE_TOKENS.read_text(encoding='utf-8'))
     base, stages = table['tokens'], stage_doc['stages']
-    pages = stage_pages(args.texj, args.korean_files.read_bytes())
+    pages = stage_pages(args.texj, build_files())
     if args.inherit:
         print(f'inherited {inherit(base, stages, pages)} tokens')
         STAGE_TOKENS.write_text(json.dumps(stage_doc, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
 
     def known(token, stage):
+        if len(token) == 2:
+            return token in table['plain']
         mapping = base if stage == 1 or int(token[:2], 16) not in STAGE_LEADS else stages[str(stage)]
         return token in mapping
 
@@ -85,11 +87,13 @@ def main():
     mod = args.game / 'mod_korean_hd'
     rooms = (mod / 'korean_rooms.bin').read_bytes()
     for entry in korean_rooms(rooms):
-        for token in tokens_in(rooms[entry[4]:entry[4] + entry[5]]):
-            if not known(token, entry[0]):
-                missing[('room', entry[0])].add(token)
+        messages = rooms[entry[4]:entry[4] + entry[5]]
+        for start, end in room_messages(messages):
+            for _, token in message_glyphs(messages, start, end):
+                if token != '00' and not known(token, entry[0]):
+                    missing[('room', entry[0])].add(token)
     exe = (mod / 'korean_exe.bin').read_bytes()
-    exe_text = exe[20:20 + struct.unpack_from('<I', exe, 4)[0]]
+    exe_text = exe[20:20 + struct.unpack_from('<I', exe, 4)[0]]  # unparsed: offset tables give false hits
     for token in set(tokens_in(exe_text)):
         for stage in range(1, 8):
             if not known(token, stage):

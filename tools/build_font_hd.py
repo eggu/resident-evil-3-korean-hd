@@ -20,6 +20,7 @@ from PIL import Image, ImageDraw, ImageFont
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from build_hd import color555
 from formats import korean_files
+from translation import build_files
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_FONT = ROOT / 'assets/fonts/NotoSansKR[wght].ttf'
@@ -191,7 +192,6 @@ def build(texj, krf2, tokens, plain, font_path, weight, font_size, output, stage
 def main():
     parser = argparse.ArgumentParser(description=__doc__.split('\n')[0])
     parser.add_argument('--texj', type=Path, default=ROOT / 'work/original/DATA_J/ETC2/TEXJ.TIM')
-    parser.add_argument('--korean-files', type=Path, default=ROOT / 'work/extracted/korean_files.bin')
     parser.add_argument('--tokens', type=Path, default=ROOT / 'translation/glyph-tokens.json')
     parser.add_argument('--font', type=Path, default=DEFAULT_FONT, help='TTF/OTF used for Hangul (default: Noto Sans KR)')
     parser.add_argument('--weight', type=float, default=400, help='wght axis for variable fonts (default 400 = Regular)')
@@ -200,7 +200,7 @@ def main():
     parser.add_argument('--output', type=Path, required=True)
     args = parser.parse_args()
     table = json.loads(args.tokens.read_text(encoding='utf-8'))
-    krf2 = args.korean_files.read_bytes()
+    krf2 = build_files()
     stage_maps = json.loads(args.stage_tokens.read_text(encoding='utf-8'))['stages']
     stages = [(tim_words(patched_file((args.texj.parent / f'FONTST{n}J.TIM').read_bytes(), krf2, f'fontst{n}j.tim')), stage_maps[str(n)])
               for n in range(2, 8)]
