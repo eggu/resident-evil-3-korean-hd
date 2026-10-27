@@ -23,29 +23,10 @@ Classic REbirth로 실행하는 **SourceNext 일본어판 BIOHAZARD 3 PC**에서
 2. `config.ini`의 `[DLL]`에서 `JapaneseEnable = 1`인지 확인합니다. 한글은 일본어 글꼴 경로로 출력됩니다. REbirth는 종료할 때 `config.ini`를 다시 쓰므로 게임이 꺼진 상태에서 바꿉니다.
 3. 게임을 실행하고 REbirth 모드 목록에서 **BIOHAZARD 3 - Korean HD**를 고릅니다. 실행 옵션에 `-dev_korean_hd`를 넣으면 목록 없이 바로 시작합니다.
 
-지원하는 실행 파일과 REbirth는 다음과 같습니다. 두 실행 파일은 PE 헤더의 4GB 플래그만 다르고 코드와 데이터가 같습니다.
-
-| 항목 | 조건 |
-|---|---|
-| 게임 | SourceNext `BIOHAZARD(R) 3 PC.exe` (SHA256 `b5215af1…`), 또는 Mulderland 팩의 4GB 패치본 (`BH3Launcher.exe`, Steam 팩의 `BIOHAZARD(R) 3 PC.exe`, SHA256 `f36c3e47…`) |
-| Classic REbirth | `ddraw.dll` 1.0.3 (SHA256 `8ef09511…`). 다른 버전은 [지원 추가 방법](docs/porting.md) 참고 |
-
-GOG 팩에서는 실행을 확인했습니다. Steam 팩은 같은 실행 파일을 쓰지만 아직 실행해 보지 않았습니다.
-
-**macOS(Wine, Sikarugir 등):** Wine 접두사 안의 게임 폴더(예: `.../drive_c/GOG Games/Resident Evil 3`)에 복사합니다.
-
 ## 제거
 
 - 게임 폴더의 `mod_korean_hd/`를 지웁니다.
 - `hires/`에 덮어쓴 HD 텍스처는 Enhancement Pack을 다시 설치해 되돌립니다.
-
-## 문제 해결
-
-게임 폴더의 `mod_korean_hd/korean_hd.log`를 확인합니다(실행할 때마다 새로 씁니다).
-
-- **`REFUSED: unsupported Classic REbirth ddraw.dll`:** 지원하지 않는 REbirth 버전입니다.
-- **`room unmatched`:** 번역을 찾지 못한 방입니다. 이슈로 알려 주세요.
-- **SD로 보이는 글자:** `python tools/audit_glyphs.py --game <게임 폴더>`로 HD 글자표에서 빠진 토큰을 찾을 수 있습니다.
 
 ## 직접 빌드
 
@@ -59,16 +40,6 @@ RE3_GAME=<게임 폴더> python -m unittest discover -s tests
 ```
 
 빌드에는 게임 원본 파일(`Rofs*.dat`, `BIOHAZARD(R) 3 PC.exe`, `ddraw.dll`, `hires/`)과 mingw(`i686-w64-mingw32-gcc`)가 필요합니다. `setup.py`는 덮어쓰는 파일을 `work/backups/`에 먼저 복사합니다.
-
-구성은 다음과 같습니다.
-
-- `src/`: REbirth 모드 DLL입니다. 방 메시지 교체, 한글 폰트 VRAM 업로드, 실행 파일과 REbirth 문자열 교체, REbirth 메뉴 글자 처리를 합니다.
-- `translation/text/`: 대사(`rooms.json`)와 실행 파일 문자열(`exe.json`)입니다. 글자는 그대로, 제어 코드와 빈칸 채움은 `{FA02}`, `{0000}`처럼 적습니다. `F6`은 공백, `FC`는 줄바꿈입니다. 대사는 길이를 바꿔도 되지만 실행 파일 문자열은 구간마다 바이트 길이가 같아야 합니다.
-- `translation/graphics/`: 한글 그래픽(게임 파일별 픽셀 조각)과 한글 폰트 행입니다.
-- `translation/`의 나머지: 글자 코드와 글자 대응표(스테이지별), REbirth 메뉴 번역, 문서 조판 데이터입니다.
-- `tools/setup.py`: 빌드와 설치를 맡습니다. `install_hd.py`는 HD 텍스처, `audit_glyphs.py`는 HD 누락 글자 검사를 맡습니다.
-- [docs/hd-assets.md](docs/hd-assets.md): HD 텍스처 키 계산 방식
-- [docs/porting.md](docs/porting.md): 다른 REbirth 버전을 지원하는 방법
 
 ## 크레딧과 권리
 
