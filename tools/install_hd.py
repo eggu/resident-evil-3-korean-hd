@@ -69,9 +69,9 @@ def fresh(name):  # builders create the folder themselves (build_hd and build_ui
     return out
 
 
-def install_set(inst, folder, files, listing):
+def install_set(inst, folder, files, listing, target='hires/misc'):
     """Replace the previously installed set listed in work/<listing> with files."""
-    misc = inst.game / 'hires/misc'
+    misc = inst.game / target
     record = LOCAL / listing
     for name in (record.read_text().split() if record.exists() else []):
         if name not in files:
@@ -123,7 +123,15 @@ def documents_step(inst, args):
     return f'{len(replaced)} memo, {install_set(inst, pages, sorted(p.name for p in pages.glob("*.webp")), "doc-pages-installed.txt")} pages'
 
 
-STEPS = {'fonts': fonts_step, 'status': status_step, 'documents': documents_step}
+def screens_step(inst, args):
+    out = fresh('screens')
+    run('tools/build_screens_hd.py', '--game', args.game, '--font', FONTS / 'NotoSansKR-Bold.ttf', '--output', out)
+    screens = install_set(inst, out / 'bgd', sorted(p.name for p in (out / 'bgd').glob('*.webp')), 'screens-hd-installed.txt', 'hires/bgd')
+    texts = install_set(inst, out / 'misc', sorted(p.name for p in (out / 'misc').glob('*.webp')), 'texts-hd-installed.txt')
+    return f'{screens} screens, {texts} text textures'
+
+
+STEPS = {'fonts': fonts_step, 'status': status_step, 'documents': documents_step, 'screens': screens_step}
 
 
 def main():

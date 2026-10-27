@@ -277,10 +277,16 @@ done:
 }
 /* JapaneseEnable=1 keys a document by its whole 256-row VRAM page, and the 80 rows under the
    256x176 document hold leftovers that change with game state. Clearing them first makes
-   the page key depend on the document alone. */
+   the page key depend on the document alone. Only the document slot is cleared: other 256x176
+   uploads (puzzle and menu pictures) can have live graphics below them. */
 static void clear_below_document(const Rect *rect) {
     static const uint16_t zeros[256*80];
-    if(rect->h!=176 || (rect->y&255) || rect->w<=0 || rect->w>256) return;
+    if(rect->h!=176 || (rect->y&255)) return;
+    if(rect->x!=512 || rect->y!=256 || rect->w!=64) {
+        static int others;
+        if(others<8 && others++>=0) log_line("176-row upload left alone at %d,%d w=%d",rect->x,rect->y,rect->w);
+        return;
+    }
     Rect below={rect->x,(short)(rect->y+176),rect->w,80};
     original_upload(&below,zeros);
     static int logged;

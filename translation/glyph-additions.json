@@ -1,0 +1,9 @@
+{
+ "_note": "Hangul syllables added to the patch font (see tools/glyph_additions.py).",
+ "glyphs": {
+  "ED00": "싶",
+  "ED01": "님",
+  "ED02": "답",
+  "ED03": "밸"
+ }
+}

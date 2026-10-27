@@ -115,18 +115,34 @@ def build_rooms():
 
 def load_exe():
     """(allocation, tables, writes) from translation/text/exe.json: tables are (SourceNext table VA,
-    allocation offset, operand count), writes (SourceNext VA, expected, new bytes)."""
+    allocation offset, operand count), writes (SourceNext VA, expected, new bytes).
+
+    Segments keep their byte size, except the data of a name table (F7-terminated names indexed by
+    a u16 offset table): it may change length, its offset table is recomputed and the segments
+    after it move, keeping their 4-byte alignment."""
     doc = json.loads((TEXT / 'exe.json').read_text(encoding='utf-8'))
     codec = Codec(1)
-    allocation = b''
+    names = {t['data']: t['offsets'] for t in doc.get('name_tables', [])}
+    encoded = {}
     for segment in doc['allocation']:
         data = codec.encode(''.join(segment['text']))
-        if len(data) != segment['size']:
+        if segment['offset'] in names:
+            if len(data) > segment['size']:
+                data += bytes(-(len(data) - segment['size']) % 4)
+        elif len(data) != segment['size']:
             raise ValueError(f'exe text at {segment["offset"]:#x} must stay {segment["size"]} bytes (now {len(data)})')
-        if len(allocation) != segment['offset']:
-            raise ValueError(f'exe text segments are not contiguous at {segment["offset"]:#x}')
-        allocation += data
-    tables = [(int(t['sourcenext'], 16), t['offset'], t['operands']) for t in doc['tables']]
+        encoded[segment['offset']] = data
+    for data_at, offsets_at in names.items():
+        count = len(encoded[offsets_at]) // 2
+        starts = [0] + [i + 1 for i, unit in text_units(encoded[data_at]) if unit == b'\xf7']  # F7 as a unit, not inside a glyph
+        if len(starts) < count:
+            raise ValueError(f'name table at {data_at:#x} has {len(starts)} names, needs {count}')
+        encoded[offsets_at] = struct.pack(f'<{count}H', *starts[:count])
+    moved, allocation = {}, b''
+    for segment in doc['allocation']:
+        moved[segment['offset']] = len(allocation)
+        allocation += encoded[segment['offset']]
+    tables = [(int(t['sourcenext'], 16), moved[t['offset']], t['operands']) for t in doc['tables']]
     writes = [(int(w['sourcenext'], 16), bytes.fromhex(w['expected']), bytes.fromhex(w['new'])) for w in doc['writes']]
     return allocation, tables, writes
 
@@ -136,6 +152,18 @@ def build_files():
     Hangul font rows uploaded to VRAM."""
     index = json.loads((GRAPHICS / 'index.json').read_text())
     data = (GRAPHICS / 'data.bin').read_bytes()
+    krf2 = pack_files(index, data)
+    from glyph_additions import additions, font_rows
+    if not additions():
+        return krf2
+    from build_font_hd import apply_font_runs, load_texj
+    words, _ = load_texj((ROOT / 'work/original/DATA_J/ETC2/TEXJ.TIM').read_bytes())
+    extra = font_rows(apply_font_runs(words, krf2))
+    fonts = index['fonts'] + [[x, y, width, 0, len(data) + sum(len(r[3]) for r in extra[:i])] for i, (x, y, width, _) in enumerate(extra)]
+    return pack_files({**index, 'fonts': fonts}, data + b''.join(r[3] for r in extra))
+
+
+def pack_files(index, data):
     files = sorted(index['files'].items())
     runs = [run for _, file_runs in files for run in file_runs]
     head = 12 + 40 * len(files) + 12 * len(runs) + 12 * len(index['fonts'])

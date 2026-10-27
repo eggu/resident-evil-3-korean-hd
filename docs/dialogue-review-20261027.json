@@ -1,0 +1,8259 @@
+{
+ "date": "2026-10-27",
+ "scope": "112 room tables / 1048 message slots; dialogue, inspection text and choices. Not a new document/image transcription audit.",
+ "sources": {
+  "japanese": "ROFS Japanese RDTs matched to all 112 original table checksums; local/review/out/jp and ocr.tsv. OCR is a review aid, not a certified transcription. 029_05 is a shared offset alias of 029_06.",
+  "english": "https://gamefaqs.gamespot.com/ps/198459-resident-evil-3-nemesis/faqs/60207 (Saiyuki12, 2010); selected spoken-scene cross-checks. No English inspection-text corpus is installed.",
+  "interrupted_session": "Claude Code b425a9f8-e98c-490a-90ba-785a062ed6d9; stopped 2026-10-27 18:20 KST at usage limit while adding 싶/님."
+ },
+ "summary": {
+  "room_tables": 112,
+  "message_slots": 1048,
+  "unique_comparison_rows": 806,
+  "text_slots": 934,
+  "empty_or_control_only_slots": 114,
+  "changed_messages": 36,
+  "replacement_matches": 37
+ },
+ "limits": [
+  "Japanese text was compared using the existing OCR table; selected uncertain correction candidates were checked against source rasters. Not all 948 rasters were individually re-transcribed.",
+  "English/Japanese localizations intentionally differ. The final S.T.A.R.S. line and gas-station English wording remain valid alternatives.",
+  "Roman numerals, choice positioning and special puzzle glyph labels were not rewritten from flattened OCR; require game visual checks.",
+  "In-game typography, timings and clipping after these edits need a restarted-game check."
+ ],
+ "coverage": [
+  {
+   "id": "000_00",
+   "where": [
+    "000_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "000_01",
+   "where": [
+    "000_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "000_02",
+   "where": [
+    "000_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "000_03",
+   "where": [
+    "000_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "001_00",
+   "where": [
+    "001_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "001_01",
+   "where": [
+    "001_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "001_02",
+   "where": [
+    "001_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "001_03",
+   "where": [
+    "001_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "001_04",
+   "where": [
+    "001_04",
+    "015_06",
+    "051_00",
+    "056_00",
+    "059_17",
+    "074_04",
+    "079_12",
+    "095_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "001_05",
+   "where": [
+    "001_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "001_06",
+   "where": [
+    "001_06",
+    "003_03",
+    "006_04",
+    "014_02",
+    "019_00",
+    "027_02",
+    "028_01",
+    "031_22",
+    "034_00",
+    "038_20",
+    "041_05",
+    "042_07",
+    "048_05",
+    "069_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "001_07",
+   "where": [
+    "001_07"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "001_08",
+   "where": [
+    "001_08"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "001_09",
+   "where": [
+    "001_09"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "001_10",
+   "where": [
+    "001_10"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "001_11",
+   "where": [
+    "001_11"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "001_12",
+   "where": [
+    "001_12"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "001_13",
+   "where": [
+    "001_13"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "001_14",
+   "where": [
+    "001_14"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "001_15",
+   "where": [
+    "001_15"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "001_16",
+   "where": [
+    "001_16"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "001_17",
+   "where": [
+    "001_17"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "002_00",
+   "where": [
+    "002_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "002_01",
+   "where": [
+    "002_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "002_02",
+   "where": [
+    "002_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "003_00",
+   "where": [
+    "003_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "003_01",
+   "where": [
+    "003_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "003_02",
+   "where": [
+    "003_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "003_04",
+   "where": [
+    "003_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "003_05",
+   "where": [
+    "003_05",
+    "006_08"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "004_00",
+   "where": [
+    "004_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "004_01",
+   "where": [
+    "004_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "004_02",
+   "where": [
+    "004_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "004_03",
+   "where": [
+    "004_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "005_00",
+   "where": [
+    "005_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "005_01",
+   "where": [
+    "005_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "005_02",
+   "where": [
+    "005_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "005_03",
+   "where": [
+    "005_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "005_04",
+   "where": [
+    "005_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "005_05",
+   "where": [
+    "005_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "005_06",
+   "where": [
+    "005_06"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "006_00",
+   "where": [
+    "006_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "006_01",
+   "where": [
+    "006_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "006_02",
+   "where": [
+    "006_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "006_03",
+   "where": [
+    "006_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "006_05",
+   "where": [
+    "006_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "006_06",
+   "where": [
+    "006_06"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "006_07",
+   "where": [
+    "006_07"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "006_09",
+   "where": [
+    "006_09"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "006_10",
+   "where": [
+    "006_10"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "006_11",
+   "where": [
+    "006_11"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "006_12",
+   "where": [
+    "006_12"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "007_00",
+   "where": [
+    "007_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "007_01",
+   "where": [
+    "007_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "007_02",
+   "where": [
+    "007_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "007_03",
+   "where": [
+    "007_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "007_04",
+   "where": [
+    "007_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "007_05",
+   "where": [
+    "007_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "007_06",
+   "where": [
+    "007_06"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "007_07",
+   "where": [
+    "007_07",
+    "007_15"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "007_08",
+   "where": [
+    "007_08",
+    "007_19"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "007_09",
+   "where": [
+    "007_09"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "007_10",
+   "where": [
+    "007_10"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "007_11",
+   "where": [
+    "007_11"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "007_12",
+   "where": [
+    "007_12"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "007_13",
+   "where": [
+    "007_13"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "007_14",
+   "where": [
+    "007_14"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "007_16",
+   "where": [
+    "007_16"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "007_17",
+   "where": [
+    "007_17"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "007_18",
+   "where": [
+    "007_18"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "007_20",
+   "where": [
+    "007_20"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "008_00",
+   "where": [
+    "008_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "008_01",
+   "where": [
+    "008_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "008_02",
+   "where": [
+    "008_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "008_03",
+   "where": [
+    "008_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "009_00",
+   "where": [
+    "009_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "009_01",
+   "where": [
+    "009_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "009_02",
+   "where": [
+    "009_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "009_03",
+   "where": [
+    "009_03",
+    "047_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "010_00",
+   "where": [
+    "010_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "010_01",
+   "where": [
+    "010_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "010_02",
+   "where": [
+    "010_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "011_00",
+   "where": [
+    "011_00",
+    "011_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "011_02",
+   "where": [
+    "011_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "012_00",
+   "where": [
+    "012_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "012_01",
+   "where": [
+    "012_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "013_00",
+   "where": [
+    "013_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "013_01",
+   "where": [
+    "013_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "013_02",
+   "where": [
+    "013_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "013_03",
+   "where": [
+    "013_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "013_04",
+   "where": [
+    "013_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "014_00",
+   "where": [
+    "014_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "014_01",
+   "where": [
+    "014_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "014_03",
+   "where": [
+    "014_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "014_04",
+   "where": [
+    "014_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "014_05",
+   "where": [
+    "014_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "014_06",
+   "where": [
+    "014_06"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "015_00",
+   "where": [
+    "015_00",
+    "042_00",
+    "068_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "015_01",
+   "where": [
+    "015_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "015_02",
+   "where": [
+    "015_02",
+    "074_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "015_03",
+   "where": [
+    "015_03",
+    "074_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "015_04",
+   "where": [
+    "015_04",
+    "074_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "015_05",
+   "where": [
+    "015_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "016_00",
+   "where": [
+    "016_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "016_01",
+   "where": [
+    "016_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "016_02",
+   "where": [
+    "016_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "016_03",
+   "where": [
+    "016_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "016_04",
+   "where": [
+    "016_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "017_00",
+   "where": [
+    "017_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "017_01",
+   "where": [
+    "017_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "017_02",
+   "where": [
+    "017_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "017_03",
+   "where": [
+    "017_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "017_04",
+   "where": [
+    "017_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "017_05",
+   "where": [
+    "017_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "018_00",
+   "where": [
+    "018_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "018_01",
+   "where": [
+    "018_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "018_02",
+   "where": [
+    "018_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "018_03",
+   "where": [
+    "018_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "020_00",
+   "where": [
+    "020_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "020_01",
+   "where": [
+    "020_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "021_00",
+   "where": [
+    "021_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "021_01",
+   "where": [
+    "021_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "021_02",
+   "where": [
+    "021_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "022_00",
+   "where": [
+    "022_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "022_01",
+   "where": [
+    "022_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "022_02",
+   "where": [
+    "022_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "022_03",
+   "where": [
+    "022_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "022_04",
+   "where": [
+    "022_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "022_05",
+   "where": [
+    "022_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "022_06",
+   "where": [
+    "022_06"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "022_07",
+   "where": [
+    "022_07"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "022_08",
+   "where": [
+    "022_08"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "022_09",
+   "where": [
+    "022_09"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "022_10",
+   "where": [
+    "022_10"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "023_00",
+   "where": [
+    "023_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "023_01",
+   "where": [
+    "023_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": [
+    "023_01"
+   ]
+  },
+  {
+   "id": "023_02",
+   "where": [
+    "023_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "023_03",
+   "where": [
+    "023_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "023_04",
+   "where": [
+    "023_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "023_05",
+   "where": [
+    "023_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": [
+    "023_05"
+   ]
+  },
+  {
+   "id": "023_06",
+   "where": [
+    "023_06"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "023_07",
+   "where": [
+    "023_07"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "023_08",
+   "where": [
+    "023_08"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": [
+    "023_08"
+   ]
+  },
+  {
+   "id": "023_09",
+   "where": [
+    "023_09"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "023_10",
+   "where": [
+    "023_10"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "023_11",
+   "where": [
+    "023_11"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "023_12",
+   "where": [
+    "023_12"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "023_13",
+   "where": [
+    "023_13"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "023_14",
+   "where": [
+    "023_14"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "023_15",
+   "where": [
+    "023_15"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "023_16",
+   "where": [
+    "023_16",
+    "039_07",
+    "046_04",
+    "057_10",
+    "091_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "023_18",
+   "where": [
+    "023_18"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "023_19",
+   "where": [
+    "023_19"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "023_20",
+   "where": [
+    "023_20"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "023_21",
+   "where": [
+    "023_21"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "023_22",
+   "where": [
+    "023_22"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "023_23",
+   "where": [
+    "023_23"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "023_24",
+   "where": [
+    "023_24"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "023_25",
+   "where": [
+    "023_25"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "023_26",
+   "where": [
+    "023_26"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "024_00",
+   "where": [
+    "024_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "024_01",
+   "where": [
+    "024_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "024_02",
+   "where": [
+    "024_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "026_00",
+   "where": [
+    "026_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "026_01",
+   "where": [
+    "026_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "026_02",
+   "where": [
+    "026_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "026_03",
+   "where": [
+    "026_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "026_04",
+   "where": [
+    "026_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "026_05",
+   "where": [
+    "026_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "027_00",
+   "where": [
+    "027_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "027_01",
+   "where": [
+    "027_01",
+    "050_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "027_03",
+   "where": [
+    "027_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "027_04",
+   "where": [
+    "027_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "027_05",
+   "where": [
+    "027_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "028_00",
+   "where": [
+    "028_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "029_00",
+   "where": [
+    "029_00",
+    "029_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "029_02",
+   "where": [
+    "029_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "029_03",
+   "where": [
+    "029_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "029_04",
+   "where": [
+    "029_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "029_05",
+   "where": [
+    "029_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "029_06",
+   "where": [
+    "029_06"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "030_00",
+   "where": [
+    "030_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "030_01",
+   "where": [
+    "030_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "030_02",
+   "where": [
+    "030_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "030_03",
+   "where": [
+    "030_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "030_04",
+   "where": [
+    "030_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "030_05",
+   "where": [
+    "030_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "030_06",
+   "where": [
+    "030_06"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "030_07",
+   "where": [
+    "030_07",
+    "030_20",
+    "031_00",
+    "031_13",
+    "032_20"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "030_08",
+   "where": [
+    "030_08",
+    "031_01",
+    "032_27"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "030_09",
+   "where": [
+    "030_09",
+    "031_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": [
+    "030_09",
+    "031_02"
+   ]
+  },
+  {
+   "id": "030_10",
+   "where": [
+    "030_10",
+    "031_03",
+    "032_09"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "030_11",
+   "where": [
+    "030_11",
+    "030_23",
+    "031_04",
+    "031_16",
+    "032_10",
+    "032_23"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "030_12",
+   "where": [
+    "030_12",
+    "030_24",
+    "031_05",
+    "031_17",
+    "032_11",
+    "032_24"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "030_13",
+   "where": [
+    "030_13",
+    "031_06",
+    "032_12"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "030_14",
+   "where": [
+    "030_14",
+    "031_07",
+    "032_13"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "030_16",
+   "where": [
+    "030_16",
+    "031_09",
+    "032_15"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "030_17",
+   "where": [
+    "030_17",
+    "031_10",
+    "032_17"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "030_18",
+   "where": [
+    "030_18",
+    "031_11",
+    "032_18"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "030_19",
+   "where": [
+    "030_19",
+    "032_19"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "030_21",
+   "where": [
+    "030_21",
+    "031_14",
+    "032_21"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "030_22",
+   "where": [
+    "030_22",
+    "031_15",
+    "032_22"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "030_25",
+   "where": [
+    "030_25",
+    "031_18",
+    "032_25"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": [
+    "030_25",
+    "031_18",
+    "032_25"
+   ]
+  },
+  {
+   "id": "030_27",
+   "where": [
+    "030_27",
+    "032_26"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "030_28",
+   "where": [
+    "030_28"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "031_12",
+   "where": [
+    "031_12"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "031_20",
+   "where": [
+    "031_20"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "031_21",
+   "where": [
+    "031_21"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "031_23",
+   "where": [
+    "031_23"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "032_00",
+   "where": [
+    "032_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "032_01",
+   "where": [
+    "032_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "032_02",
+   "where": [
+    "032_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "032_03",
+   "where": [
+    "032_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "032_04",
+   "where": [
+    "032_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "032_05",
+   "where": [
+    "032_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "032_06",
+   "where": [
+    "032_06"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "032_07",
+   "where": [
+    "032_07"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "032_08",
+   "where": [
+    "032_08"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "032_28",
+   "where": [
+    "032_28"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "033_02",
+   "where": [
+    "033_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "033_03",
+   "where": [
+    "033_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "033_04",
+   "where": [
+    "033_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": [
+    "033_04"
+   ]
+  },
+  {
+   "id": "033_05",
+   "where": [
+    "033_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "033_06",
+   "where": [
+    "033_06"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "033_07",
+   "where": [
+    "033_07"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "035_00",
+   "where": [
+    "035_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "035_01",
+   "where": [
+    "035_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "035_02",
+   "where": [
+    "035_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "035_03",
+   "where": [
+    "035_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "035_04",
+   "where": [
+    "035_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "036_00",
+   "where": [
+    "036_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": [
+    "036_00"
+   ]
+  },
+  {
+   "id": "036_01",
+   "where": [
+    "036_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "036_02",
+   "where": [
+    "036_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "036_03",
+   "where": [
+    "036_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "036_04",
+   "where": [
+    "036_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": [
+    "036_04"
+   ]
+  },
+  {
+   "id": "036_05",
+   "where": [
+    "036_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "036_06",
+   "where": [
+    "036_06"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "036_07",
+   "where": [
+    "036_07"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "036_09",
+   "where": [
+    "036_09"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "036_10",
+   "where": [
+    "036_10"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "036_11",
+   "where": [
+    "036_11"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_00",
+   "where": [
+    "037_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_01",
+   "where": [
+    "037_01",
+    "037_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_02",
+   "where": [
+    "037_02",
+    "045_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_03",
+   "where": [
+    "037_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_05",
+   "where": [
+    "037_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_06",
+   "where": [
+    "037_06"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_07",
+   "where": [
+    "037_07"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_08",
+   "where": [
+    "037_08"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_09",
+   "where": [
+    "037_09"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_10",
+   "where": [
+    "037_10"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_11",
+   "where": [
+    "037_11"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_12",
+   "where": [
+    "037_12"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_13",
+   "where": [
+    "037_13"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_14",
+   "where": [
+    "037_14"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_15",
+   "where": [
+    "037_15"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_16",
+   "where": [
+    "037_16"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_17",
+   "where": [
+    "037_17"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": [
+    "037_17"
+   ]
+  },
+  {
+   "id": "037_18",
+   "where": [
+    "037_18"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_19",
+   "where": [
+    "037_19"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_20",
+   "where": [
+    "037_20"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_21",
+   "where": [
+    "037_21"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_22",
+   "where": [
+    "037_22"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_23",
+   "where": [
+    "037_23"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_24",
+   "where": [
+    "037_24"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_25",
+   "where": [
+    "037_25"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": [
+    "037_25"
+   ]
+  },
+  {
+   "id": "037_26",
+   "where": [
+    "037_26"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_27",
+   "where": [
+    "037_27"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_28",
+   "where": [
+    "037_28"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_29",
+   "where": [
+    "037_29"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_30",
+   "where": [
+    "037_30"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_31",
+   "where": [
+    "037_31"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_32",
+   "where": [
+    "037_32",
+    "062_16"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_33",
+   "where": [
+    "037_33"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_34",
+   "where": [
+    "037_34"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_35",
+   "where": [
+    "037_35"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_36",
+   "where": [
+    "037_36"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": [
+    "037_36"
+   ]
+  },
+  {
+   "id": "037_38",
+   "where": [
+    "037_38"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_39",
+   "where": [
+    "037_39"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_40",
+   "where": [
+    "037_40"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_41",
+   "where": [
+    "037_41"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_42",
+   "where": [
+    "037_42"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_43",
+   "where": [
+    "037_43"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_44",
+   "where": [
+    "037_44"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_45",
+   "where": [
+    "037_45"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_46",
+   "where": [
+    "037_46"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_47",
+   "where": [
+    "037_47"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_48",
+   "where": [
+    "037_48"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_49",
+   "where": [
+    "037_49"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_50",
+   "where": [
+    "037_50"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_51",
+   "where": [
+    "037_51"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_52",
+   "where": [
+    "037_52"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_54",
+   "where": [
+    "037_54"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_55",
+   "where": [
+    "037_55"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_56",
+   "where": [
+    "037_56"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_57",
+   "where": [
+    "037_57"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_58",
+   "where": [
+    "037_58"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "037_59",
+   "where": [
+    "037_59"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "038_00",
+   "where": [
+    "038_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "038_01",
+   "where": [
+    "038_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "038_02",
+   "where": [
+    "038_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "038_03",
+   "where": [
+    "038_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "038_04",
+   "where": [
+    "038_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "038_05",
+   "where": [
+    "038_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": [
+    "038_05"
+   ]
+  },
+  {
+   "id": "038_06",
+   "where": [
+    "038_06",
+    "100_54"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "038_07",
+   "where": [
+    "038_07"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "038_08",
+   "where": [
+    "038_08"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "038_09",
+   "where": [
+    "038_09"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "038_10",
+   "where": [
+    "038_10"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "038_11",
+   "where": [
+    "038_11"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "038_12",
+   "where": [
+    "038_12"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": [
+    "038_12"
+   ]
+  },
+  {
+   "id": "038_13",
+   "where": [
+    "038_13"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "038_14",
+   "where": [
+    "038_14"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": [
+    "038_14"
+   ]
+  },
+  {
+   "id": "038_15",
+   "where": [
+    "038_15"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": [
+    "038_15"
+   ]
+  },
+  {
+   "id": "038_16",
+   "where": [
+    "038_16"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": [
+    "038_16"
+   ]
+  },
+  {
+   "id": "038_17",
+   "where": [
+    "038_17"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "038_18",
+   "where": [
+    "038_18"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "038_19",
+   "where": [
+    "038_19"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "038_21",
+   "where": [
+    "038_21"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "038_22",
+   "where": [
+    "038_22"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "039_00",
+   "where": [
+    "039_00",
+    "046_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "039_01",
+   "where": [
+    "039_01",
+    "039_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "039_02",
+   "where": [
+    "039_02",
+    "046_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "039_03",
+   "where": [
+    "039_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "039_05",
+   "where": [
+    "039_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "039_06",
+   "where": [
+    "039_06"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "039_08",
+   "where": [
+    "039_08",
+    "046_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": [
+    "039_08",
+    "046_05"
+   ]
+  },
+  {
+   "id": "039_09",
+   "where": [
+    "039_09",
+    "046_06"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "039_10",
+   "where": [
+    "039_10",
+    "046_07"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "039_11",
+   "where": [
+    "039_11",
+    "046_08"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": [
+    "039_11",
+    "046_08"
+   ]
+  },
+  {
+   "id": "039_12",
+   "where": [
+    "039_12",
+    "046_09"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "039_13",
+   "where": [
+    "039_13",
+    "046_10"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "039_14",
+   "where": [
+    "039_14",
+    "047_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "040_00",
+   "where": [
+    "040_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "040_01",
+   "where": [
+    "040_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "040_02",
+   "where": [
+    "040_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "040_03",
+   "where": [
+    "040_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "040_04",
+   "where": [
+    "040_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "040_05",
+   "where": [
+    "040_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "040_06",
+   "where": [
+    "040_06"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "040_07",
+   "where": [
+    "040_07"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "040_08",
+   "where": [
+    "040_08"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "040_09",
+   "where": [
+    "040_09"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "040_10",
+   "where": [
+    "040_10"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "040_11",
+   "where": [
+    "040_11"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "040_12",
+   "where": [
+    "040_12",
+    "042_19"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "040_13",
+   "where": [
+    "040_13"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "040_14",
+   "where": [
+    "040_14"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "040_15",
+   "where": [
+    "040_15"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "040_16",
+   "where": [
+    "040_16"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "040_17",
+   "where": [
+    "040_17"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "040_18",
+   "where": [
+    "040_18",
+    "040_25"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "040_19",
+   "where": [
+    "040_19"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "040_20",
+   "where": [
+    "040_20"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "040_21",
+   "where": [
+    "040_21"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "041_00",
+   "where": [
+    "041_00",
+    "048_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "041_01",
+   "where": [
+    "041_01",
+    "048_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "041_02",
+   "where": [
+    "041_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "041_03",
+   "where": [
+    "041_03",
+    "048_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "041_04",
+   "where": [
+    "041_04",
+    "048_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "042_01",
+   "where": [
+    "042_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "042_02",
+   "where": [
+    "042_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "042_03",
+   "where": [
+    "042_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "042_04",
+   "where": [
+    "042_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "042_05",
+   "where": [
+    "042_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "042_06",
+   "where": [
+    "042_06"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "042_08",
+   "where": [
+    "042_08"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "042_09",
+   "where": [
+    "042_09"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "042_10",
+   "where": [
+    "042_10"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "042_11",
+   "where": [
+    "042_11"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "042_12",
+   "where": [
+    "042_12"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "042_13",
+   "where": [
+    "042_13"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "042_14",
+   "where": [
+    "042_14"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "042_15",
+   "where": [
+    "042_15"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "042_16",
+   "where": [
+    "042_16"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "042_17",
+   "where": [
+    "042_17"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "042_18",
+   "where": [
+    "042_18"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "042_20",
+   "where": [
+    "042_20"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "042_21",
+   "where": [
+    "042_21"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "042_22",
+   "where": [
+    "042_22"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": [
+    "042_22"
+   ]
+  },
+  {
+   "id": "042_23",
+   "where": [
+    "042_23"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "043_00",
+   "where": [
+    "043_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "043_01",
+   "where": [
+    "043_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "043_02",
+   "where": [
+    "043_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "043_03",
+   "where": [
+    "043_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "044_00",
+   "where": [
+    "044_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "044_02",
+   "where": [
+    "044_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "044_03",
+   "where": [
+    "044_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "044_04",
+   "where": [
+    "044_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "044_05",
+   "where": [
+    "044_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "044_07",
+   "where": [
+    "044_07"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "044_08",
+   "where": [
+    "044_08"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "044_09",
+   "where": [
+    "044_09"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "044_10",
+   "where": [
+    "044_10"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "044_11",
+   "where": [
+    "044_11"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "044_12",
+   "where": [
+    "044_12"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "044_13",
+   "where": [
+    "044_13"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "044_14",
+   "where": [
+    "044_14"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "044_15",
+   "where": [
+    "044_15"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "044_16",
+   "where": [
+    "044_16"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "045_00",
+   "where": [
+    "045_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "045_02",
+   "where": [
+    "045_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "045_03",
+   "where": [
+    "045_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "045_04",
+   "where": [
+    "045_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "045_05",
+   "where": [
+    "045_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "045_06",
+   "where": [
+    "045_06"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "045_07",
+   "where": [
+    "045_07"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "045_08",
+   "where": [
+    "045_08"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "045_09",
+   "where": [
+    "045_09"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "046_01",
+   "where": [
+    "046_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "046_03",
+   "where": [
+    "046_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "047_00",
+   "where": [
+    "047_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "048_02",
+   "where": [
+    "048_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "049_00",
+   "where": [
+    "049_00",
+    "055_03",
+    "063_03",
+    "067_03",
+    "082_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "050_00",
+   "where": [
+    "050_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "050_01",
+   "where": [
+    "050_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "050_03",
+   "where": [
+    "050_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "051_01",
+   "where": [
+    "051_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "051_02",
+   "where": [
+    "051_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "051_03",
+   "where": [
+    "051_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "051_04",
+   "where": [
+    "051_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "051_05",
+   "where": [
+    "051_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "051_06",
+   "where": [
+    "051_06"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "051_07",
+   "where": [
+    "051_07"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "051_08",
+   "where": [
+    "051_08"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "051_09",
+   "where": [
+    "051_09",
+    "051_19"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "051_10",
+   "where": [
+    "051_10"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "051_12",
+   "where": [
+    "051_12"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "051_13",
+   "where": [
+    "051_13"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "051_14",
+   "where": [
+    "051_14"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "051_15",
+   "where": [
+    "051_15"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "051_16",
+   "where": [
+    "051_16"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "051_17",
+   "where": [
+    "051_17"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "051_18",
+   "where": [
+    "051_18"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "051_20",
+   "where": [
+    "051_20"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "051_21",
+   "where": [
+    "051_21"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "051_22",
+   "where": [
+    "051_22"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "052_00",
+   "where": [
+    "052_00",
+    "064_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "053_00",
+   "where": [
+    "053_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "053_01",
+   "where": [
+    "053_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "053_02",
+   "where": [
+    "053_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "053_03",
+   "where": [
+    "053_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "053_04",
+   "where": [
+    "053_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": [
+    "053_04"
+   ]
+  },
+  {
+   "id": "053_05",
+   "where": [
+    "053_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "053_06",
+   "where": [
+    "053_06"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "053_07",
+   "where": [
+    "053_07"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "053_08",
+   "where": [
+    "053_08"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "053_09",
+   "where": [
+    "053_09"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "053_10",
+   "where": [
+    "053_10",
+    "064_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "055_00",
+   "where": [
+    "055_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "055_01",
+   "where": [
+    "055_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "055_02",
+   "where": [
+    "055_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "056_01",
+   "where": [
+    "056_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "056_02",
+   "where": [
+    "056_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "057_00",
+   "where": [
+    "057_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "057_01",
+   "where": [
+    "057_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "057_12",
+   "where": [
+    "057_12"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "057_13",
+   "where": [
+    "057_13"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "057_14",
+   "where": [
+    "057_14"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "057_15",
+   "where": [
+    "057_15"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "057_16",
+   "where": [
+    "057_16"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "058_00",
+   "where": [
+    "058_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "059_00",
+   "where": [
+    "059_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "059_01",
+   "where": [
+    "059_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "059_02",
+   "where": [
+    "059_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "059_03",
+   "where": [
+    "059_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "059_04",
+   "where": [
+    "059_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "059_05",
+   "where": [
+    "059_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "059_06",
+   "where": [
+    "059_06"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "059_07",
+   "where": [
+    "059_07"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "059_08",
+   "where": [
+    "059_08"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "059_09",
+   "where": [
+    "059_09"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "059_10",
+   "where": [
+    "059_10"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "059_11",
+   "where": [
+    "059_11"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "059_12",
+   "where": [
+    "059_12"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "059_13",
+   "where": [
+    "059_13"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "059_14",
+   "where": [
+    "059_14"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "059_15",
+   "where": [
+    "059_15"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "059_16",
+   "where": [
+    "059_16"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "060_00",
+   "where": [
+    "060_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "060_01",
+   "where": [
+    "060_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "060_02",
+   "where": [
+    "060_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "060_03",
+   "where": [
+    "060_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "060_04",
+   "where": [
+    "060_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "060_05",
+   "where": [
+    "060_05",
+    "100_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "060_06",
+   "where": [
+    "060_06"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "060_07",
+   "where": [
+    "060_07"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "060_08",
+   "where": [
+    "060_08"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "060_09",
+   "where": [
+    "060_09",
+    "082_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "061_00",
+   "where": [
+    "061_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "061_01",
+   "where": [
+    "061_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "061_02",
+   "where": [
+    "061_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "061_03",
+   "where": [
+    "061_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "061_04",
+   "where": [
+    "061_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "061_05",
+   "where": [
+    "061_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "061_06",
+   "where": [
+    "061_06"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "061_07",
+   "where": [
+    "061_07"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "061_08",
+   "where": [
+    "061_08"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "061_09",
+   "where": [
+    "061_09"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "061_10",
+   "where": [
+    "061_10"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "062_00",
+   "where": [
+    "062_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "062_09",
+   "where": [
+    "062_09"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "062_11",
+   "where": [
+    "062_11",
+    "103_10"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "062_15",
+   "where": [
+    "062_15"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "062_17",
+   "where": [
+    "062_17"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "062_19",
+   "where": [
+    "062_19"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "062_20",
+   "where": [
+    "062_20"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "062_21",
+   "where": [
+    "062_21"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "063_00",
+   "where": [
+    "063_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "063_01",
+   "where": [
+    "063_01",
+    "067_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "063_02",
+   "where": [
+    "063_02",
+    "067_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "064_00",
+   "where": [
+    "064_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "065_00",
+   "where": [
+    "065_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "065_01",
+   "where": [
+    "065_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "065_02",
+   "where": [
+    "065_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "065_03",
+   "where": [
+    "065_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "065_04",
+   "where": [
+    "065_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": [
+    "065_04"
+   ]
+  },
+  {
+   "id": "065_05",
+   "where": [
+    "065_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "065_06",
+   "where": [
+    "065_06"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": [
+    "065_06"
+   ]
+  },
+  {
+   "id": "065_07",
+   "where": [
+    "065_07"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "065_08",
+   "where": [
+    "065_08"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "065_09",
+   "where": [
+    "065_09"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": [
+    "065_09"
+   ]
+  },
+  {
+   "id": "065_10",
+   "where": [
+    "065_10"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "065_11",
+   "where": [
+    "065_11"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "065_13",
+   "where": [
+    "065_13"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "066_00",
+   "where": [
+    "066_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "066_01",
+   "where": [
+    "066_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "066_02",
+   "where": [
+    "066_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "066_03",
+   "where": [
+    "066_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "067_00",
+   "where": [
+    "067_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "068_00",
+   "where": [
+    "068_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "068_02",
+   "where": [
+    "068_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "068_03",
+   "where": [
+    "068_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "068_04",
+   "where": [
+    "068_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "068_05",
+   "where": [
+    "068_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "068_06",
+   "where": [
+    "068_06"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "069_00",
+   "where": [
+    "069_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "070_00",
+   "where": [
+    "070_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "070_01",
+   "where": [
+    "070_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "070_02",
+   "where": [
+    "070_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "070_03",
+   "where": [
+    "070_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "070_04",
+   "where": [
+    "070_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "070_05",
+   "where": [
+    "070_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "071_00",
+   "where": [
+    "071_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "071_01",
+   "where": [
+    "071_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "071_02",
+   "where": [
+    "071_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "071_03",
+   "where": [
+    "071_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "071_04",
+   "where": [
+    "071_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "071_05",
+   "where": [
+    "071_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "072_00",
+   "where": [
+    "072_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "072_01",
+   "where": [
+    "072_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "072_02",
+   "where": [
+    "072_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "072_03",
+   "where": [
+    "072_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "072_04",
+   "where": [
+    "072_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "072_05",
+   "where": [
+    "072_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "072_06",
+   "where": [
+    "072_06"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "072_07",
+   "where": [
+    "072_07",
+    "073_01",
+    "077_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "072_08",
+   "where": [
+    "072_08",
+    "073_02",
+    "077_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "072_09",
+   "where": [
+    "072_09"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "073_00",
+   "where": [
+    "073_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "073_03",
+   "where": [
+    "073_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "073_04",
+   "where": [
+    "073_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "073_05",
+   "where": [
+    "073_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "073_06",
+   "where": [
+    "073_06"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "074_00",
+   "where": [
+    "074_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "074_05",
+   "where": [
+    "074_05",
+    "075_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "075_00",
+   "where": [
+    "075_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "075_01",
+   "where": [
+    "075_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "075_02",
+   "where": [
+    "075_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "075_03",
+   "where": [
+    "075_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "075_04",
+   "where": [
+    "075_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "076_00",
+   "where": [
+    "076_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "076_01",
+   "where": [
+    "076_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "076_02",
+   "where": [
+    "076_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "076_03",
+   "where": [
+    "076_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "076_04",
+   "where": [
+    "076_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "076_05",
+   "where": [
+    "076_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "076_06",
+   "where": [
+    "076_06"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "076_07",
+   "where": [
+    "076_07"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "076_08",
+   "where": [
+    "076_08"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "076_09",
+   "where": [
+    "076_09"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "077_00",
+   "where": [
+    "077_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "077_01",
+   "where": [
+    "077_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "077_04",
+   "where": [
+    "077_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "078_00",
+   "where": [
+    "078_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "078_01",
+   "where": [
+    "078_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": [
+    "078_01"
+   ]
+  },
+  {
+   "id": "078_02",
+   "where": [
+    "078_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "078_03",
+   "where": [
+    "078_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "078_04",
+   "where": [
+    "078_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "078_05",
+   "where": [
+    "078_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "078_06",
+   "where": [
+    "078_06"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "078_08",
+   "where": [
+    "078_08"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "078_09",
+   "where": [
+    "078_09"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "078_10",
+   "where": [
+    "078_10"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "078_11",
+   "where": [
+    "078_11"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "079_00",
+   "where": [
+    "079_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "079_01",
+   "where": [
+    "079_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "079_02",
+   "where": [
+    "079_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "079_03",
+   "where": [
+    "079_03",
+    "079_04",
+    "079_10"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "079_05",
+   "where": [
+    "079_05",
+    "079_11"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "079_06",
+   "where": [
+    "079_06"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "079_07",
+   "where": [
+    "079_07"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "079_08",
+   "where": [
+    "079_08"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "079_09",
+   "where": [
+    "079_09"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "080_00",
+   "where": [
+    "080_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "081_00",
+   "where": [
+    "081_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "081_01",
+   "where": [
+    "081_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "081_02",
+   "where": [
+    "081_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "081_03",
+   "where": [
+    "081_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "081_04",
+   "where": [
+    "081_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "081_05",
+   "where": [
+    "081_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "081_06",
+   "where": [
+    "081_06"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "082_00",
+   "where": [
+    "082_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "082_01",
+   "where": [
+    "082_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "082_03",
+   "where": [
+    "082_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "082_05",
+   "where": [
+    "082_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "083_00",
+   "where": [
+    "083_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "084_00",
+   "where": [
+    "084_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "084_01",
+   "where": [
+    "084_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "085_00",
+   "where": [
+    "085_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "085_01",
+   "where": [
+    "085_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "085_02",
+   "where": [
+    "085_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "085_03",
+   "where": [
+    "085_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "085_04",
+   "where": [
+    "085_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "085_05",
+   "where": [
+    "085_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "085_06",
+   "where": [
+    "085_06"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "085_07",
+   "where": [
+    "085_07"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "085_08",
+   "where": [
+    "085_08"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "085_09",
+   "where": [
+    "085_09"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "085_10",
+   "where": [
+    "085_10"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "085_11",
+   "where": [
+    "085_11"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "085_12",
+   "where": [
+    "085_12"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "085_13",
+   "where": [
+    "085_13"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "085_14",
+   "where": [
+    "085_14"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "085_15",
+   "where": [
+    "085_15"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "085_17",
+   "where": [
+    "085_17"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "086_00",
+   "where": [
+    "086_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "087_00",
+   "where": [
+    "087_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "087_01",
+   "where": [
+    "087_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "087_02",
+   "where": [
+    "087_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "087_03",
+   "where": [
+    "087_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": [
+    "087_03"
+   ]
+  },
+  {
+   "id": "088_00",
+   "where": [
+    "088_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "089_00",
+   "where": [
+    "089_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "089_01",
+   "where": [
+    "089_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "090_00",
+   "where": [
+    "090_00",
+    "099_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "090_01",
+   "where": [
+    "090_01",
+    "092_03",
+    "099_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "090_02",
+   "where": [
+    "090_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "090_03",
+   "where": [
+    "090_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "090_05",
+   "where": [
+    "090_05",
+    "092_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "091_00",
+   "where": [
+    "091_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "091_01",
+   "where": [
+    "091_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "091_03",
+   "where": [
+    "091_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "091_04",
+   "where": [
+    "091_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "091_05",
+   "where": [
+    "091_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "091_06",
+   "where": [
+    "091_06"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "091_07",
+   "where": [
+    "091_07"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "091_08",
+   "where": [
+    "091_08"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "091_09",
+   "where": [
+    "091_09"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "092_00",
+   "where": [
+    "092_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "092_01",
+   "where": [
+    "092_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "092_02",
+   "where": [
+    "092_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "092_04",
+   "where": [
+    "092_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "092_06",
+   "where": [
+    "092_06"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "092_07",
+   "where": [
+    "092_07",
+    "096_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "092_08",
+   "where": [
+    "092_08"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "093_00",
+   "where": [
+    "093_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "093_02",
+   "where": [
+    "093_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "093_03",
+   "where": [
+    "093_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "093_04",
+   "where": [
+    "093_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "093_05",
+   "where": [
+    "093_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "093_06",
+   "where": [
+    "093_06"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "093_07",
+   "where": [
+    "093_07"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "094_00",
+   "where": [
+    "094_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "094_01",
+   "where": [
+    "094_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "094_02",
+   "where": [
+    "094_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "094_03",
+   "where": [
+    "094_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "094_04",
+   "where": [
+    "094_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "094_05",
+   "where": [
+    "094_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "094_06",
+   "where": [
+    "094_06"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "094_07",
+   "where": [
+    "094_07"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "094_08",
+   "where": [
+    "094_08"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "094_09",
+   "where": [
+    "094_09"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "095_00",
+   "where": [
+    "095_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "096_00",
+   "where": [
+    "096_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "096_01",
+   "where": [
+    "096_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "096_02",
+   "where": [
+    "096_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "096_03",
+   "where": [
+    "096_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "096_04",
+   "where": [
+    "096_04",
+    "096_11"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "096_06",
+   "where": [
+    "096_06"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "096_07",
+   "where": [
+    "096_07"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "096_08",
+   "where": [
+    "096_08"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "096_09",
+   "where": [
+    "096_09"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "096_10",
+   "where": [
+    "096_10"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "096_12",
+   "where": [
+    "096_12"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "096_13",
+   "where": [
+    "096_13"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "097_00",
+   "where": [
+    "097_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "097_01",
+   "where": [
+    "097_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "097_02",
+   "where": [
+    "097_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "097_03",
+   "where": [
+    "097_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "098_00",
+   "where": [
+    "098_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "098_01",
+   "where": [
+    "098_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "098_02",
+   "where": [
+    "098_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "098_03",
+   "where": [
+    "098_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "098_04",
+   "where": [
+    "098_04",
+    "100_26"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "098_05",
+   "where": [
+    "098_05",
+    "100_27"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": [
+    "098_05",
+    "100_27"
+   ]
+  },
+  {
+   "id": "098_06",
+   "where": [
+    "098_06",
+    "100_28"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "098_07",
+   "where": [
+    "098_07",
+    "100_29"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "098_08",
+   "where": [
+    "098_08",
+    "100_30"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "098_09",
+   "where": [
+    "098_09"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "098_10",
+   "where": [
+    "098_10",
+    "100_32"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "098_12",
+   "where": [
+    "098_12"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "098_13",
+   "where": [
+    "098_13"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "098_14",
+   "where": [
+    "098_14"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "098_15",
+   "where": [
+    "098_15"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "098_16",
+   "where": [
+    "098_16"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "098_17",
+   "where": [
+    "098_17"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "099_00",
+   "where": [
+    "099_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": [
+    "099_00"
+   ]
+  },
+  {
+   "id": "099_03",
+   "where": [
+    "099_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "099_04",
+   "where": [
+    "099_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "099_05",
+   "where": [
+    "099_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "099_06",
+   "where": [
+    "099_06"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "099_07",
+   "where": [
+    "099_07"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "099_08",
+   "where": [
+    "099_08"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "100_00",
+   "where": [
+    "100_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "100_02",
+   "where": [
+    "100_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "100_03",
+   "where": [
+    "100_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "100_04",
+   "where": [
+    "100_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "100_05",
+   "where": [
+    "100_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "100_10",
+   "where": [
+    "100_10"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "100_11",
+   "where": [
+    "100_11"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "100_12",
+   "where": [
+    "100_12"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "100_13",
+   "where": [
+    "100_13"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "100_14",
+   "where": [
+    "100_14"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "100_15",
+   "where": [
+    "100_15"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "100_16",
+   "where": [
+    "100_16"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "100_17",
+   "where": [
+    "100_17"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "100_18",
+   "where": [
+    "100_18"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "100_22",
+   "where": [
+    "100_22"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "100_23",
+   "where": [
+    "100_23"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "100_24",
+   "where": [
+    "100_24"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "100_25",
+   "where": [
+    "100_25"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "100_31",
+   "where": [
+    "100_31"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "100_33",
+   "where": [
+    "100_33"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "100_34",
+   "where": [
+    "100_34"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "100_35",
+   "where": [
+    "100_35"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "100_39",
+   "where": [
+    "100_39"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "100_40",
+   "where": [
+    "100_40"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "100_41",
+   "where": [
+    "100_41"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "100_42",
+   "where": [
+    "100_42"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "100_43",
+   "where": [
+    "100_43"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "100_44",
+   "where": [
+    "100_44"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "100_45",
+   "where": [
+    "100_45"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "100_46",
+   "where": [
+    "100_46"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "100_47",
+   "where": [
+    "100_47"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": [
+    "100_47"
+   ]
+  },
+  {
+   "id": "100_48",
+   "where": [
+    "100_48"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": [
+    "100_48"
+   ]
+  },
+  {
+   "id": "100_49",
+   "where": [
+    "100_49"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "100_50",
+   "where": [
+    "100_50"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "100_51",
+   "where": [
+    "100_51"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "100_52",
+   "where": [
+    "100_52"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "100_53",
+   "where": [
+    "100_53"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "100_55",
+   "where": [
+    "100_55"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "101_00",
+   "where": [
+    "101_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "101_01",
+   "where": [
+    "101_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "102_00",
+   "where": [
+    "102_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "102_01",
+   "where": [
+    "102_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "102_02",
+   "where": [
+    "102_02"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "102_03",
+   "where": [
+    "102_03"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "102_04",
+   "where": [
+    "102_04"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "102_05",
+   "where": [
+    "102_05"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "102_06",
+   "where": [
+    "102_06"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "102_07",
+   "where": [
+    "102_07"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "102_08",
+   "where": [
+    "102_08"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "102_09",
+   "where": [
+    "102_09"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "102_10",
+   "where": [
+    "102_10"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "102_11",
+   "where": [
+    "102_11"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "102_12",
+   "where": [
+    "102_12"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "102_13",
+   "where": [
+    "102_13"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "102_14",
+   "where": [
+    "102_14"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "102_15",
+   "where": [
+    "102_15"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "102_16",
+   "where": [
+    "102_16"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "102_17",
+   "where": [
+    "102_17"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "102_18",
+   "where": [
+    "102_18"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "102_19",
+   "where": [
+    "102_19"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "102_20",
+   "where": [
+    "102_20"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": [
+    "102_20"
+   ]
+  },
+  {
+   "id": "102_21",
+   "where": [
+    "102_21"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "102_22",
+   "where": [
+    "102_22"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "102_23",
+   "where": [
+    "102_23"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "102_24",
+   "where": [
+    "102_24"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "102_25",
+   "where": [
+    "102_25"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "102_26",
+   "where": [
+    "102_26"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "102_27",
+   "where": [
+    "102_27"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "102_28",
+   "where": [
+    "102_28"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "103_11",
+   "where": [
+    "103_11"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "103_16",
+   "where": [
+    "103_16"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "103_21",
+   "where": [
+    "103_21"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "103_22",
+   "where": [
+    "103_22"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "103_23",
+   "where": [
+    "103_23"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "103_24",
+   "where": [
+    "103_24"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "103_25",
+   "where": [
+    "103_25"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "104_00",
+   "where": [
+    "104_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "104_01",
+   "where": [
+    "104_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "105_00",
+   "where": [
+    "105_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "106_00",
+   "where": [
+    "106_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "107_00",
+   "where": [
+    "107_00",
+    "110_00",
+    "111_00",
+    "111_01"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "108_00",
+   "where": [
+    "108_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  },
+  {
+   "id": "109_00",
+   "where": [
+    "109_00"
+   ],
+   "source_review": "japanese_ocr_compared",
+   "context_review": "reviewed",
+   "changed": []
+  }
+ ],
+ "empty_or_control_only": [
+  "003_06",
+  "003_07",
+  "003_08",
+  "003_09",
+  "009_04",
+  "023_17",
+  "023_27",
+  "023_28",
+  "023_29",
+  "023_30",
+  "025_00",
+  "030_15",
+  "030_26",
+  "031_08",
+  "031_19",
+  "032_14",
+  "032_16",
+  "033_00",
+  "033_01",
+  "036_08",
+  "037_37",
+  "037_53",
+  "038_23",
+  "038_24",
+  "038_25",
+  "040_22",
+  "040_23",
+  "040_24",
+  "042_24",
+  "042_25",
+  "043_04",
+  "044_01",
+  "044_06",
+  "044_17",
+  "045_10",
+  "045_11",
+  "051_11",
+  "054_00",
+  "057_02",
+  "057_03",
+  "057_04",
+  "057_05",
+  "057_06",
+  "057_07",
+  "057_08",
+  "057_09",
+  "057_11",
+  "062_01",
+  "062_02",
+  "062_03",
+  "062_04",
+  "062_05",
+  "062_06",
+  "062_07",
+  "062_08",
+  "062_10",
+  "062_12",
+  "062_13",
+  "062_14",
+  "062_18",
+  "065_12",
+  "065_14",
+  "076_10",
+  "078_07",
+  "081_07",
+  "081_08",
+  "081_09",
+  "085_16",
+  "090_04",
+  "093_01",
+  "098_11",
+  "100_06",
+  "100_07",
+  "100_08",
+  "100_09",
+  "100_19",
+  "100_20",
+  "100_21",
+  "100_36",
+  "100_37",
+  "100_38",
+  "100_56",
+  "100_57",
+  "100_58",
+  "100_59",
+  "100_60",
+  "100_61",
+  "100_62",
+  "102_29",
+  "102_30",
+  "102_31",
+  "102_32",
+  "102_33",
+  "103_00",
+  "103_01",
+  "103_02",
+  "103_03",
+  "103_04",
+  "103_05",
+  "103_06",
+  "103_07",
+  "103_08",
+  "103_09",
+  "103_12",
+  "103_13",
+  "103_14",
+  "103_15",
+  "103_17",
+  "103_18",
+  "103_19",
+  "103_20",
+  "103_26",
+  "103_27",
+  "105_01"
+ ],
+ "fixes": [
+  [
+   "이 건의 조사원은",
+   "이 건의 감시원은",
+   1
+  ],
+  [
+   "물…마셔버렸…으니까",
+   "물을…마셔 버렸…으니까",
+   1
+  ],
+  [
+   "이봐 난 그냥 용병이라고?",
+   "이봐, 난 그냥 용병이라고",
+   3
+  ],
+  [
+   "손에 무언가 들려 줄 수 있겠다",
+   "손에 무언가를 쥐여 줄 수 있겠다",
+   1
+  ],
+  [
+   "미하일! 그 몸으론 무리예요!",
+   "대장님! 그 몸으론 무리예요!",
+   1
+  ],
+  [
+   "안 돼 조심해 온다…!",
+   "안 돼, 조심해! 온다…!",
+   1
+  ],
+  [
+   "화염이 길을 막고 있다는 거다.",
+   "화염이 길을 막고 있다는 거다",
+   1
+  ],
+  [
+   "그래 쏴 쏘라고",
+   "그래, 쏴! 계속 쏘라고",
+   1
+  ],
+  [
+   "울부짖고 있어…",
+   "울부짖는 소리인가…",
+   1
+  ],
+  [
+   "무슨 일이 벌어지고 있는 거지?",
+   "소리가 점점 더해지고 있어…",
+   1
+  ],
+  [
+   "바보 같은 {EC00} 하지 마!",
+   "무리하지 마!",
+   1
+  ],
+  [
+   "오일을 일정 온도로 두는 보관고다",
+   "오일을 일정 온도로 보관하는 저장고다",
+   3
+  ],
+  [
+   "멋대로 죽이지 말아줘",
+   "멋대로 죽이지 말아 줘",
+   2
+  ],
+  [
+   "알고 싫은",
+   "알고 싶은",
+   2
+  ],
+  [
+   "말하고 싫은",
+   "말하고 싶은",
+   1
+  ],
+  [
+   "버리고 싫군",
+   "버리고 싶군",
+   2
+  ],
+  [
+   "되고 싫어!",
+   "되고 싶어!?",
+   1
+  ],
+  [
+   "대담해…",
+   "대답해…",
+   1
+  ],
+  [
+   "언젠가와는 반대가 됐네",
+   "이젠 처음과 반대가 됐네",
+   1
+  ],
+  [
+   "결국 바이러스에 감염되고 말았어…",
+   "나 바이러스에 감염된 거지…",
+   1
+  ],
+  [
+   "감각이 흐려져 다 아무래도 좋아져",
+   "감각이 흐려져 다 포기할 것 같아",
+   1
+  ],
+  [
+   "다른 감시원들은 죽어 줬지",
+   "다른 감시원들은 모두 처리했지",
+   2
+  ],
+  [
+   "자동 프로그램 충전을 시작합니다",
+   "자동 프로그램으로 충전을 시작합니다",
+   1
+  ],
+  [
+   "이미 좀비로 변하기 시작했었다",
+   "이 남자는 이미 좀비로 변하고 있었다",
+   1
+  ],
+  [
+   "쏘는 총알이 적게 든다",
+   "총알을 적게 쓸 수 있다",
+   1
+  ],
+  [
+   "쿡이 단단해서 손으로는",
+   "밸브가 단단해서 손으로는",
+   1
+  ],
+  [
+   "꼴이 말이 아닌데",
+   "살벌하게 나오는군",
+   1
+  ],
+  [
+   "그런 눈속임 회수 계획 따위",
+   "그런 눈속임 구조 계획 따위",
+   1
+  ],
+  [
+   "…여기는…회수한다",
+   "…여기는…구조한다",
+   1
+  ]
+ ],
+ "changes": [
+  {
+   "id": "023_01",
+   "before": "{FA00}그래{00000000000000000000000000000000}\n이미 좀비로 변하기 시작했었다{000000}{FA01}{FE77}",
+   "after": "{FA00}그래{00000000000000000000000000000000}\n이 남자는 이미 좀비로 변하고 있었다{000000}{FA01}{FE77}",
+   "controls": [
+    "FA00",
+    "FC",
+    "FA01",
+    "FE77"
+   ]
+  },
+  {
+   "id": "023_05",
+   "before": "{FA00}{0000}좀비가 되기 전에 죽이는 편이{0000}\n{00000000}쏘는 총알이 적게 든다{000000}{FA01}{FE8B}",
+   "after": "{FA00}{0000}좀비가 되기 전에 죽이는 편이{0000}\n{00000000}총알을 적게 쓸 수 있다{000000}{FA01}{FE8B}",
+   "controls": [
+    "FA00",
+    "FC",
+    "FA01",
+    "FE8B"
+   ]
+  },
+  {
+   "id": "023_08",
+   "before": "{FA00}{00000000}됐어 내 실수…야…{00000000}\n{00000000}물…마셔버렸…으니까{00000000}{FA01}{FEB0}",
+   "after": "{FA00}{00000000}됐어 내 실수…야…{00000000}\n{00000000}물을…마셔 버렸…으니까{00000000}{FA01}{FEB0}",
+   "controls": [
+    "FA00",
+    "FC",
+    "FA01",
+    "FEB0"
+   ]
+  },
+  {
+   "id": "030_09",
+   "before": "{FA00}{0000}내가 알고 싫은 건 엄브렐러가{0000}\n{00000000}부대를 투입한 이유야{00000000}{FA01}{FEB9}",
+   "after": "{FA00}{0000}내가 알고 싶은 건 엄브렐러가{0000}\n{00000000}부대를 투입한 이유야{00000000}{FA01}{FEB9}",
+   "controls": [
+    "FA00",
+    "FC",
+    "FA01",
+    "FEB9"
+   ]
+  },
+  {
+   "id": "030_25",
+   "before": "{FA00}\n이봐 난 그냥 용병이라고?{0000000000}{FA01}{FE6C}",
+   "after": "{FA00}\n이봐, 난 그냥 용병이라고{0000000000}{FA01}{FE6C}",
+   "controls": [
+    "FA00",
+    "FC",
+    "FA01",
+    "FE6C"
+   ]
+  },
+  {
+   "id": "031_02",
+   "before": "{FA00}{0000}내가 알고 싫은 건 엄브렐러가{0000}\n{00000000}부대를 투입한 이유야{00000000}{FA01}{FEB9}",
+   "after": "{FA00}{0000}내가 알고 싶은 건 엄브렐러가{0000}\n{00000000}부대를 투입한 이유야{00000000}{FA01}{FEB9}",
+   "controls": [
+    "FA00",
+    "FC",
+    "FA01",
+    "FEB9"
+   ]
+  },
+  {
+   "id": "031_18",
+   "before": "{FA00}\n이봐 난 그냥 용병이라고?{0000000000}{FA01}{FE6E}",
+   "after": "{FA00}\n이봐, 난 그냥 용병이라고{0000000000}{FA01}{FE6E}",
+   "controls": [
+    "FA00",
+    "FC",
+    "FA01",
+    "FE6E"
+   ]
+  },
+  {
+   "id": "032_25",
+   "before": "{FA00}\n이봐 난 그냥 용병이라고?{0000000000}{FA01}{FE6A}",
+   "after": "{FA00}\n이봐, 난 그냥 용병이라고{0000000000}{FA01}{FE6A}",
+   "controls": [
+    "FA00",
+    "FC",
+    "FA01",
+    "FE6A"
+   ]
+  },
+  {
+   "id": "033_04",
+   "before": "{FA02}라쿤 시티 시장{00000000000000000000}\n마이클 워렌의 청동상이다{000000000000}{FD00}{FA02}\n{0000}손에 무언가 들려 줄 수 있겠다{00}{FE00}",
+   "after": "{FA02}라쿤 시티 시장{00000000000000000000}\n마이클 워렌의 청동상이다{000000000000}{FD00}{FA02}\n{0000}손에 무언가를 쥐여 줄 수 있겠다{00}{FE00}",
+   "controls": [
+    "FA02",
+    "FC",
+    "FD00",
+    "FA02",
+    "FC",
+    "FE00"
+   ]
+  },
+  {
+   "id": "036_00",
+   "before": "{FA00}\n미하일! 그 몸으론 무리예요!{000000}{FA01}{FE67}",
+   "after": "{FA00}\n대장님! 그 몸으론 무리예요!{000000}{FA01}{FE67}",
+   "controls": [
+    "FA00",
+    "FC",
+    "FA01",
+    "FE67"
+   ]
+  },
+  {
+   "id": "036_04",
+   "before": "{FA00}{00}화풀이라고…말하고 싫은 건가?{00}\n{000000}알겠나 착각하지 마라…{000000}{FA01}{FECC}",
+   "after": "{FA00}{00}화풀이라고…말하고 싶은 건가?{00}\n{000000}알겠나 착각하지 마라…{000000}{FA01}{FECC}",
+   "controls": [
+    "FA00",
+    "FC",
+    "FA01",
+    "FECC"
+   ]
+  },
+  {
+   "id": "037_17",
+   "before": "{FA00}\n{00000000}안 돼 조심해 온다…!{000000}{FA01}{FE63}",
+   "after": "{FA00}\n{00000000}안 돼, 조심해! 온다…!{000000}{FA01}{FE63}",
+   "controls": [
+    "FA00",
+    "FC",
+    "FA01",
+    "FE63"
+   ]
+  },
+  {
+   "id": "037_25",
+   "before": "{FA00}가장 큰 문제는{0000000000000000000000}\n화염이 길을 막고 있다는 거다.{000000}{FA01}{FE7D}",
+   "after": "{FA00}가장 큰 문제는{0000000000000000000000}\n화염이 길을 막고 있다는 거다{000000}{FA01}{FE7D}",
+   "controls": [
+    "FA00",
+    "FC",
+    "FA01",
+    "FE7D"
+   ]
+  },
+  {
+   "id": "037_36",
+   "before": "{FA00}\n{0000000000} 그래 쏴 쏘라고{0000000000}{FA01}{FD8D}{FA00}\n{0000000000} …흩어지지 마!{0000000000}{FA01}{FE30}",
+   "after": "{FA00}\n{0000000000} 그래, 쏴! 계속 쏘라고{0000000000}{FA01}{FD8D}{FA00}\n{0000000000} …흩어지지 마!{0000000000}{FA01}{FE30}",
+   "controls": [
+    "FA00",
+    "FC",
+    "FA01",
+    "FD8D",
+    "FA00",
+    "FC",
+    "FA01",
+    "FE30"
+   ]
+  },
+  {
+   "id": "038_05",
+   "before": "{FA00}울부짖고 있어…{0000000000000000}\n무슨 일이 벌어지고 있는 거지?{000000}{FA01}{FE4F}",
+   "after": "{FA00}울부짖는 소리인가…{0000000000000000}\n소리가 점점 더해지고 있어…{000000}{FA01}{FE4F}",
+   "controls": [
+    "FA00",
+    "FC",
+    "FA01",
+    "FE4F"
+   ]
+  },
+  {
+   "id": "038_12",
+   "before": "{FA00}{000000000000000000000000000000000000}\n{000000} 바보 같은 {EC00} 하지 마!{000000}{FA01}{FE2D}",
+   "after": "{FA00}{000000000000000000000000000000000000}\n{000000} 무리하지 마!{000000}{FA01}{FE2D}",
+   "controls": [
+    "FA00",
+    "FC",
+    "FA01",
+    "FE2D"
+   ]
+  },
+  {
+   "id": "038_14",
+   "before": "{FA02}{000000000000000000000000000000000000}\n{00}오일을 일정 온도로 두는 보관고다{00}{FE00}",
+   "after": "{FA02}{000000000000000000000000000000000000}\n{00}오일을 일정 온도로 보관하는 저장고다{00}{FE00}",
+   "controls": [
+    "FA02",
+    "FC",
+    "FE00"
+   ]
+  },
+  {
+   "id": "038_15",
+   "before": "{FA02}{000000000000000000000000000000000000}\n{00}오일을 일정 온도로 두는 보관고다{00}{FD00}{0000}전자 잠금을 조작하겠습니까?{0000}\n{FB00}{FE00}",
+   "after": "{FA02}{000000000000000000000000000000000000}\n{00}오일을 일정 온도로 보관하는 저장고다{00}{FD00}{0000}전자 잠금을 조작하겠습니까?{0000}\n{FB00}{FE00}",
+   "controls": [
+    "FA02",
+    "FC",
+    "FD00",
+    "FC",
+    "FB00",
+    "FE00"
+   ]
+  },
+  {
+   "id": "038_16",
+   "before": "{FA02}{000000000000000000000000000000000000}\n{00}오일을 일정 온도로 두는 보관고다{00}{FD00}{000000000000000000000000000000000000}\n{0000} 쓸 만한 것은 아무것도 없다{0000}{FE00}",
+   "after": "{FA02}{000000000000000000000000000000000000}\n{00}오일을 일정 온도로 보관하는 저장고다{00}{FD00}{000000000000000000000000000000000000}\n{0000} 쓸 만한 것은 아무것도 없다{0000}{FE00}",
+   "controls": [
+    "FA02",
+    "FC",
+    "FD00",
+    "FC",
+    "FE00"
+   ]
+  },
+  {
+   "id": "039_08",
+   "before": "{FA00}\n{0000}…이봐{ED7B} 멋대로 죽이지 말아줘{00}{FA01}{FE76}",
+   "after": "{FA00}\n{0000}…이봐{ED7B} 멋대로 죽이지 말아 줘{00}{FA01}{FE76}",
+   "controls": [
+    "FA00",
+    "FC",
+    "FA01",
+    "FE76"
+   ]
+  },
+  {
+   "id": "039_11",
+   "before": "{FA00}{00000000} 젠장 귀가 엄청 울려{00000000}\n{00000000}귀를 떼어 버리고 싫군{000000}{FA01}{FE82}",
+   "after": "{FA00}{00000000} 젠장 귀가 엄청 울려{00000000}\n{00000000}귀를 떼어 버리고 싶군{000000}{FA01}{FE82}",
+   "controls": [
+    "FA00",
+    "FC",
+    "FA01",
+    "FE82"
+   ]
+  },
+  {
+   "id": "042_22",
+   "before": "{FA00}{000000000000000000000000000000000000}\n{00000000} 무슨 무모한 {EC00}이야{00000000}{FD29}{000000000000000000000000000000000000}\n{00000000}통구이가 되고 싫어!{00000000}{FA01}{FE39}",
+   "after": "{FA00}{000000000000000000000000000000000000}\n{00000000} 무슨 무모한 {EC00}이야{00000000}{FD29}{000000000000000000000000000000000000}\n{00000000}통구이가 되고 싶어!?{00000000}{FA01}{FE39}",
+   "controls": [
+    "FA00",
+    "FC",
+    "FD29",
+    "FC",
+    "FA01",
+    "FE39"
+   ]
+  },
+  {
+   "id": "046_05",
+   "before": "{FA00}\n{0000}…이봐{ED7B} 멋대로 죽이지 말아줘{00}{FA01}{FE76}",
+   "after": "{FA00}\n{0000}…이봐{ED7B} 멋대로 죽이지 말아 줘{00}{FA01}{FE76}",
+   "controls": [
+    "FA00",
+    "FC",
+    "FA01",
+    "FE76"
+   ]
+  },
+  {
+   "id": "046_08",
+   "before": "{FA00}{00000000} 젠장 귀가 엄청 울려{00000000}\n{00000000}귀를 떼어 버리고 싫군{000000}{FA01}{FE82}",
+   "after": "{FA00}{00000000} 젠장 귀가 엄청 울려{00000000}\n{00000000}귀를 떼어 버리고 싶군{000000}{FA01}{FE82}",
+   "controls": [
+    "FA00",
+    "FC",
+    "FA01",
+    "FE82"
+   ]
+  },
+  {
+   "id": "053_04",
+   "before": "{FA00}{0000} 그런 눈속임 회수 계획 따위{0000}\n{00000000000000}믿지 마!{000000000000}{FA01}{FEB2}",
+   "after": "{FA00}{0000} 그런 눈속임 구조 계획 따위{0000}\n{00000000000000}믿지 마!{000000000000}{FA01}{FEB2}",
+   "controls": [
+    "FA00",
+    "FC",
+    "FA01",
+    "FEB2"
+   ]
+  },
+  {
+   "id": "065_04",
+   "before": "{FA00}\n{000000} 언젠가와는 반대가 됐네{000000}{FA01}{FE6E}",
+   "after": "{FA00}\n{000000} 이젠 처음과 반대가 됐네{000000}{FA01}{FE6E}",
+   "controls": [
+    "FA00",
+    "FC",
+    "FA01",
+    "FE6E"
+   ]
+  },
+  {
+   "id": "065_06",
+   "before": "{FA00}\n 결국 바이러스에 감염되고 말았어…{FA01}{FE5D}",
+   "after": "{FA00}\n 나 바이러스에 감염된 거지…{FA01}{FE5D}",
+   "controls": [
+    "FA00",
+    "FC",
+    "FA01",
+    "FE5D"
+   ]
+  },
+  {
+   "id": "065_09",
+   "before": "{FA00}고통이라도 있으면 버틸 텐데{00000000}\n감각이 흐려져 다 아무래도 좋아져{0000}{FA01}{FE6A}",
+   "after": "{FA00}고통이라도 있으면 버틸 텐데{00000000}\n감각이 흐려져 다 포기할 것 같아{0000}{FA01}{FE6A}",
+   "controls": [
+    "FA00",
+    "FC",
+    "FA01",
+    "FE6A"
+   ]
+  },
+  {
+   "id": "078_01",
+   "before": "{FA00}\n{000000} 이봐{ED7B} 꼴이 말이 아닌데{000000}{FA01}{FE48}",
+   "after": "{FA00}\n{000000} 이봐{ED7B} 살벌하게 나오는군{000000}{FA01}{FE48}",
+   "controls": [
+    "FA00",
+    "FC",
+    "FA01",
+    "FE48"
+   ]
+  },
+  {
+   "id": "087_03",
+   "before": "{FA00}\n{000000000000000000000000000000000000}{FD0A}\n{0000000000}작전은 종료되었다{00000000}{FD28}\n이 건의 조사원은 즉시 철수하라{000000}{FD48}\n{00000000000000}반복한다{00000000000000}{FD28}\n이 건의 조사원은 즉시 철수하라{000000}{FA01}{FE50}",
+   "after": "{FA00}\n{000000000000000000000000000000000000}{FD0A}\n{0000000000}작전은 종료되었다{00000000}{FD28}\n이 건의 감시원은 즉시 철수하라{000000}{FD48}\n{00000000000000}반복한다{00000000000000}{FD28}\n이 건의 감시원은 즉시 철수하라{000000}{FA01}{FE50}",
+   "controls": [
+    "FA00",
+    "FC",
+    "FD0A",
+    "FC",
+    "FD28",
+    "FC",
+    "FD48",
+    "FC",
+    "FD28",
+    "FC",
+    "FA01",
+    "FE50"
+   ]
+  },
+  {
+   "id": "098_05",
+   "before": "{FA00}\n{000000}다른 감시원들은 죽어 줬지{0000}{FA01}{FE74}",
+   "after": "{FA00}\n{000000}다른 감시원들은 모두 처리했지{0000}{FA01}{FE74}",
+   "controls": [
+    "FA00",
+    "FC",
+    "FA01",
+    "FE74"
+   ]
+  },
+  {
+   "id": "099_00",
+   "before": "{FA02}{000000} 쿡이 단단해서 손으로는{000000}\n{000000000000}돌릴 수 없다{000000000000}{FE00}",
+   "after": "{FA02}{000000} 밸브가 단단해서 손으로는{000000}\n{000000000000}돌릴 수 없다{000000000000}{FE00}",
+   "controls": [
+    "FA02",
+    "FC",
+    "FE00"
+   ]
+  },
+  {
+   "id": "100_27",
+   "before": "{FA00}\n{000000}다른 감시원들은 죽어 줬지{0000}{FE78}",
+   "after": "{FA00}\n{000000}다른 감시원들은 모두 처리했지{0000}{FE78}",
+   "controls": [
+    "FA00",
+    "FC",
+    "FE78"
+   ]
+  },
+  {
+   "id": "100_47",
+   "before": "{FA00}\n{000000} …여기는…회수한다{000000}{FDAC}\n{0000000000} …시간이 없다{0000000000}{FE56}",
+   "after": "{FA00}\n{000000} …여기는…구조한다{000000}{FDAC}\n{0000000000} …시간이 없다{0000000000}{FE56}",
+   "controls": [
+    "FA00",
+    "FC",
+    "FDAC",
+    "FC",
+    "FE56"
+   ]
+  },
+  {
+   "id": "100_48",
+   "before": "{FA00}\n{000000}…S.T.A.R.S.…질…{000000}{FD7E}\n{0000}죽어 버린 거야…대담해…{0000}{FE80}",
+   "after": "{FA00}\n{000000}…S.T.A.R.S.…질…{000000}{FD7E}\n{0000}죽어 버린 거야…대답해…{0000}{FE80}",
+   "controls": [
+    "FA00",
+    "FC",
+    "FD7E",
+    "FC",
+    "FE80"
+   ]
+  },
+  {
+   "id": "102_20",
+   "before": "{FA00}\n자동 프로그램 충전을 시작합니다{0000}{FA01}{FE9E}",
+   "after": "{FA00}\n자동 프로그램으로 충전을 시작합니다{0000}{FA01}{FE9E}",
+   "controls": [
+    "FA00",
+    "FC",
+    "FA01",
+    "FE9E"
+   ]
+  }
+ ],
+ "validation": {
+  "python_tests": 26,
+  "failures": 0,
+  "skipped": 2,
+  "room_hd_glyph_omissions": 0,
+  "exe_audit": "53 raw-allocation token candidates remain in the unchanged executable blob; its offset tables are scanned as text by the existing audit. Not new room-dialogue omissions.",
+  "installed_file_sha256": {
+   "hires/misc/0173034F.webp": "ece7931e84f98c7856f3c355657ad157bfee2ea6dba1b82700d6bb11a7412718",
+   "hires/misc/02B9546D.webp": "47ed6a55e53148e5f7dda153babe35efa418c44b32341755dd981b0c61b4eab6",
+   "hires/misc/037BE4D9.webp": "186c926f975746b510f1f0b40faaa152b720b4d8bec76c80e0e46fdecbacdbad",
+   "hires/misc/083EA1E5.webp": "9ef7686e4cda593227b421cd19643f230714ae83446637872418efe6c5369e5a",
+   "hires/misc/0AF44C2A.webp": "7faa6be872a382da8393cea47e396f073e7878cca1c35bd989d2640786ee50ec",
+   "hires/misc/1144855E.webp": "c880740c3dc5d82f26c4ecc66b915ae0e78bc84ca25dcb514d06a3b473b9dcf4",
+   "hires/misc/1493EBAE.webp": "6717b3d3c5a890e44b349e9b0622e7d1ae07fbd0239ece4af68599f4771875c5",
+   "hires/misc/16095660.webp": "0e9135bb1897712f0511e46ef23d1b0e2b973cbb0cda91f5990caafb6d0b15e0",
+   "hires/misc/165BA0B8.webp": "0a22b93ef13e2eb630e2944443aad1c305750b44f2c3b09f9044187b9690ad69",
+   "hires/misc/1960D214.webp": "e4c297444575f086161c7b112ddc2af5465a0e8dd0fefd64b69c3a82ff194f58",
+   "hires/misc/1EDA9A1F.webp": "f7d8c284ad0f98199e8e02c60bf7a929f3ae5040a11a5e6bb300319be7dcf88c",
+   "hires/misc/1FE73A1A.webp": "3e92d079914a84edfff4c68da71bbdd3abf931e291616c110b93b336c8082505",
+   "hires/misc/2096DB59.webp": "17ef4ce094c77d88a7c04cfd795e2c5be0c7a4eb3d7637f74a7afa8a38fbe3e7",
+   "hires/misc/217BBC12.webp": "3c4bd9cbb6f333396a38ed6c71589149273b3d9dbcc7c6fb1eab3b98e6533ec5",
+   "hires/misc/25304599.webp": "216d584f170a241c7ce31f4395e6dd0e2b658e60550bced58f1e49988f2ce115",
+   "hires/misc/290C7CA0.webp": "52ebf8c6a12ee6120c888aa59a6159da45c792df9ed985095187551a4b01e40d",
+   "hires/misc/2A2517DB.webp": "5103adba33227a488838b040dab14a3ef32999483a0030293e2370cbe3226644",
+   "hires/misc/2B9E9106.webp": "20612a9b462fe681c476216a0159459f81230cb2f077de6007e9e7d86a2b76ae",
+   "hires/misc/2C87FF53.webp": "222c33b823598fad406926fcfcf474f8ac9280c9f942cf60bdd4e8eb0640136a",
+   "hires/misc/31836033.webp": "0c899dd859dd764ce940f9b02cac8807584017c33cf41c441376de05a7b1b79d",
+   "hires/misc/321C1515.webp": "a751e9ea7b61d4630362b43f5a79c2f3686113ce967bb3c138c36900daaaeba7",
+   "hires/misc/37E61561.webp": "c6f89c52bdd96654fce4b7c2887530a150960e4272bf99166fb757c5311e8a37",
+   "hires/misc/3800E2BE.webp": "e3c74a5ff2cc04bc890e53fcb004141ae3055ceb40f4c339ffd0a2a9dd3baae5",
+   "hires/misc/3CAC1E1D.webp": "0f54cb91e51a5e931a5c96c7c24fca4f46fde839f98ccd5174d834203666f7f5",
+   "hires/misc/3DC8E174.webp": "3944f61e9ff79a8cb1a568a9cb8de64283c84d48198d1191762e47682d8188f2",
+   "hires/misc/47373BFF.webp": "58d6e5441b8414ac54b08a0c76663147dde90b433c5fd7d3bfa7e52ef80e96f5",
+   "hires/misc/47936AFB.webp": "f52bdc2b32f9fd6774cb81a3108614886b18977138a3a92b16353ae6d623f191",
+   "hires/misc/4C40B446.webp": "cee3498feae153857f2e1acb8b6de49b780bbd1e98a84460e67dedfbc963fdb5",
+   "hires/misc/4DB49459.webp": "3c93986ca6623b5a4ad86c5cb169d11a3ff163ccf601f28592206ec6e661e5f2",
+   "hires/misc/5019B9A8.webp": "3ba1ce2a4519cab65b9aedc7e26d7e15da6ceda29c5abcaba2f29e1fc57e340a",
+   "hires/misc/54EDB6A9.webp": "037ac073d73afd89bd4a2cc82a12158fdcca561a1712c6295373c26c1900e8c7",
+   "hires/misc/56B1A2E0.webp": "11da07d48c5ce1bf96281582bb00710666bdb5c9b3e546ed810deefcb24d8c50",
+   "hires/misc/5FC63E8A.webp": "a44eeaea046449a40869c4d8adb4a4528f7f5fa051ee7ae1f0e1a0975955bd94",
+   "hires/misc/62F0D7D7.webp": "30c73ccc8c017d54bdcffd6c39a20588e6ce19cc25b08ff63ecf7e1ce758669f",
+   "hires/misc/6935CC11.webp": "fe19cd08031781335dde1cc37f2da0fd339660512a2cc16ed2c008a3e2704eba",
+   "hires/misc/6A418B4C.webp": "f7672d1b89df60fda110212d32ad82ee11ec858ebd54fbd6776a8a2b3b7a25a3",
+   "hires/misc/6F5A0606.webp": "58fbb0e307f623cb562bf3829d622c8cef141f75c8fc86afb16cb9b7c1860733",
+   "hires/misc/6FE23223.webp": "434985284b3b4b13b19087667d9774efeeee771516a1884a03100de7caff6fae",
+   "hires/misc/72445513.webp": "92734f8669471fd432f7956aba7702d364fd160ae12332d02c413fce0a3845b0",
+   "hires/misc/76832440.webp": "0512448f582c06845cec7c0e636a0afc532071c4a9f4de99b51eaa6d8d60a958",
+   "hires/misc/782C1F9A.webp": "7786680e3059564ad9a32043d46ad5faee03e663a63a0622346c057c94f2d672",
+   "hires/misc/7B1CE342.webp": "1d3f4edb31e83c1494739231ab1af09ead3c8a837b4b276e0ffcbbb196d8694d",
+   "hires/misc/81D63E7A.webp": "fe448e81d25f9ae214ad88de928c0fe0a06db18ebe19f450c968d553ad0c360b",
+   "hires/misc/84B24AE3.webp": "ce16de8459f636c1c6db99b7388f538dc037bde929d474fc0c3283f235c24a13",
+   "hires/misc/85E32991.webp": "dabd612e6d0dd21e618a5e49e3f6bee5e07c13ef927899d37d546504497ec828",
+   "hires/misc/90F79CC6.webp": "34a1e70e2905fbcf29ad3637e3dd56ec2e57da6ee1bf3b51d72bd8f73cd1e9e1",
+   "hires/misc/9589380A.webp": "5c66393b643b53e007e96e3e2c22a47629cc423d401f400eb66340f4bd9668bb",
+   "hires/misc/9C4BED13.webp": "e1227c830629d2180fb7850fe2003187ba8b36adf8916ff6cf94a10dcd4632f7",
+   "hires/misc/9C71DED9.webp": "554b98593d66a5fba1db0b1e334a03ffcb10bcfbd61223c1b2f8aba82b6ac675",
+   "hires/misc/9F50A711.webp": "f00162a65e7c98ef63b898f7b0ece2c75ae62b7a8d46c1b5abacebfce8a8a6b7",
+   "hires/misc/A0C14F4F.webp": "b1ed0b1309362252655809e772590102eee3fb3de266bddcd2e440529fac5d24",
+   "hires/misc/A149220F.webp": "c9921a941fe91c2645bbfe90a27c64696d97af6b1f1d04c0cc63ad0e67660dfc",
+   "hires/misc/A1D9114D.webp": "636023c7db19b27d3829697165e63338f4961be2ade3092e3c184077305f0465",
+   "hires/misc/A4E08C7B.webp": "3770b9893a6d608a9d5847d1cd998ba007b42179c6df91a5f0521458635c399d",
+   "hires/misc/A4F04896.webp": "39beaba0111b9eda166a16d84fc766acfcf216603ee83f8c0a46858fef1cdfe8",
+   "hires/misc/A53668AB.webp": "6504fe5793ab01cbf53c0db1c14bd32cea0d79d8e881b5555e847538ffbbe6cd",
+   "hires/misc/A5597416.webp": "d63e65451537a60d637840dca9e6556bafe46b0d7ce207517e7911f74977630d",
+   "hires/misc/AD225E78.webp": "4296a4407cfa1823991cfeecbeeac5752b3551bdfc09817c7ff31410adad292e",
+   "hires/misc/AF5E82CF.webp": "25195a003cc5a0fe2ecd4379b317d1499baa9f80d36c6d27210359bcf1198948",
+   "hires/misc/B2C2F0DA.webp": "b41d5588e58f1d071d3dc73f75f631a6afddf5062dd6d9fedafb6a5eaa58762e",
+   "hires/misc/B49DFC65.webp": "c9089dd0372de792380a347f86c561fc4af0e57be0e394dd51b5455c8a66e714",
+   "hires/misc/B6299C1B.webp": "913f59034e933d9d9f1dd450a296d34f0ba9c60a90b679886864bc9a0a829b92",
+   "hires/misc/BD35652B.webp": "dc825c9e1e620765434fea7c4f929fa881d3d090bc0e7b6c1f0e0b747ba0ae9d",
+   "hires/misc/C52FEFF4.webp": "c7f43956aea4f223aac9c5479c9d0fc151f864d0ad4bc8c46ac2b10736872ac7",
+   "hires/misc/C57ECB16.webp": "634f40d6387c0514c17df476401f96baa2f2cfbb92da3fe7cf6eb60b8e4b6c99",
+   "hires/misc/C5936E65.webp": "299a3299d73dcdadd8dd0b9a802c9764ce9797e5890a488dd15f9ba992c038f5",
+   "hires/misc/CAE35200.webp": "c69408d78f02f1b5a2273bde130ea32e9acd0d58391a60f3be829d56759b8d00",
+   "hires/misc/CD16EDA9.webp": "83de2a212f1f12ae539e902dfd8b59d91c9f9675598a7c36ec569ceebdfd71fe",
+   "hires/misc/CE3A1B54.webp": "257241a3b7344230b13fad6c008f300582aa70ca1b17675f237dc992f9efbd49",
+   "hires/misc/D0BEF039.webp": "b604cefd620e54b511c8f349f94f17930c37696c5b8496ac514ff4946dc8575b",
+   "hires/misc/D0F5B629.webp": "c911940b09cc819232da462348ce2493e8af58486dfb68f03994e80cbe2e9cbd",
+   "hires/misc/D4AD7493.webp": "8b3fb7e5dbf6e98062e7913eb1d26307e8cc7b572a7d5c5fcae52c9328a2a28a",
+   "hires/misc/D4FF8EF9.webp": "8c37141a1a4ed5b2458bf22b6413af301a4b9e3e258f88067b5057dc90844d6d",
+   "hires/misc/D81B4338.webp": "bd7d9b060a6c7c9230a16e0a75f0554c417d55d7f81ee6e691ca48ba8b9a657d",
+   "hires/misc/D98EC830.webp": "bec1a7aa9c81bdcfb0f527627366ffa8fe00233d1e17fa1387132aef176adb7d",
+   "hires/misc/DB849F1C.webp": "e2ea47dcc6df99f1133f9f3a5c577741112346123fbc25fd0c852de3eeff904c",
+   "hires/misc/DFEBEF9C.webp": "1c9e2818af467fd67bf90e16a8da3b1e28fa1ee0cdcb88e7289c38f509abde75",
+   "hires/misc/E2102144.webp": "d03c017e87328ea4099cfdbad11385aa03401b8ce7b368c2ac6ff23e98a5db0f",
+   "hires/misc/E81F5D9A.webp": "e8599c1ee7b45ea0f724beb6d48b650d9446693c8039d0fbda382a14a3cd9284",
+   "hires/misc/ECA2B0AF.webp": "02ee29bcaa6966e66375f6677ec6f8da625068baf70f3cec03689e797a45de40",
+   "hires/misc/ED0CF820.webp": "36b95cd40c0509cc28b597e271351567c82938e59f5eb60e27f9d8dfd1cfd03c",
+   "hires/misc/EF0F9E67.webp": "79b7f911c9d8198092988d99243714987253ddd017df2255df758098a83f3bbc",
+   "hires/misc/F1F4D520.webp": "524dad204ee0cf7c3765edb8d49949a565804a2888825bc21204956ea7997576",
+   "hires/misc/F4795D09.webp": "b1d9252dd833b386a03fa92dc34890cb7fca43f3883e008f48d2cd6336dfd48e",
+   "hires/misc/F5540041.webp": "d1734aa138196ee8f0b76c09fd008b5046ffa1a0de99923cb0298e16ff7e8885",
+   "hires/misc/F5A4CC86.webp": "0aa88e65f406bae82e65114d9f623f46f27e6e9a3439bc9bd9c0d85b5980c58a",
+   "hires/misc/F8C3489F.webp": "fff8935841f733a61c6730cc04676fcb03ee0c38fb1adf0ac804f30ef948accd",
+   "hires/misc/FC3AAD1A.webp": "24da5c4ebdc8f1265c984d2a7a6bc767dc5ab53eca16a995b82f7cefcbbafe44",
+   "hires/misc/FF1CA5D7.webp": "4003981720ffbf1e278c20b6840645fdad5fac1b52fc14a37d1a42ffbccf09da",
+   "hires/misc/FF270045.webp": "da439fc3c7a7334baaee143827bf38605549182101907882ca5bce3141de4d85",
+   "mod_korean_hd/korean_rooms.bin": "9983a5aaf3d2d1ca3c923023f6aa43bb19408faad68144405ebb726d9d12517e",
+   "mod_korean_hd/korean_files.bin": "4e289c3d1f1e2099072de09ac24ce545ccebcbe5bfb0cef2b97949c38fccdb03"
+  },
+  "backups": [
+   "work/backups/dialogue-review-20261027-210251",
+   "work/backups/hd-20261027-210251"
+  ],
+  "runtime_visual": "pending restart"
+ }
+}

@@ -161,7 +161,7 @@ def korean_rooms(data):
     return entries
 
 
-ONE_BYTE_CONTROLS = (0xF6, 0xF7, 0xFC)  # space, end of an item/file name, line break
+ONE_BYTE_CONTROLS = (0xF5, 0xF6, 0xF7, 0xFC)  # F5 (before timed text), space, end of an item/file name, line break
 
 
 def text_units(data, start=0, end=None):
@@ -190,5 +190,5 @@ def room_messages(table):
 def message_glyphs(table, start, end):
     """(position, code) of glyphs in one message: 'EBxx' tokens, 'xx' plain codes (00 is blank padding)."""
     for i, unit in text_units(table, start, end):
-        if unit[0] < 0xEA or 0xEB <= unit[0] <= 0xF0 and len(unit) == 2:
+        if unit[0] < 0xEA or 0xEA <= unit[0] <= 0xF0 and len(unit) == 2:  # EA xx: plain layer from row 14
             yield i, unit.hex().upper()

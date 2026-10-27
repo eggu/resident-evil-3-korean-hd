@@ -13,8 +13,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 WORK = ROOT / 'work'
 LISTS = {'mod_korean_hd': ['mod-installed.txt'],
-         'hires/misc': ['font-hd-installed.txt', 'status-hd-installed.txt', 'doc-pages-installed.txt'],
-         'hires/memo': ['doc-memo-installed.txt']}
+         'hires/misc': ['font-hd-installed.txt', 'status-hd-installed.txt', 'doc-pages-installed.txt', 'texts-hd-installed.txt'],
+         'hires/memo': ['doc-memo-installed.txt'],
+         'hires/bgd': ['screens-hd-installed.txt']}
 
 
 def build_dll(version):
