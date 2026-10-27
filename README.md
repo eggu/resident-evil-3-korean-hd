@@ -8,15 +8,6 @@ Classic REbirth로 실행하는 **SourceNext 일본어판 BIOHAZARD 3 PC**에서
   - 상태 화면 라벨: Noto Sans KR Bold
   - 문서: Noto Serif KR SemiBold
 
-## v1.0.2 변경
-
-- 잘못 읽힌 HD 글자 대응표를 수정했습니다(`줄→좋`, `붙→불` 등으로 보이던 문제).
-- 대사 36개 메시지의 오타·오역·어색한 표현을 다듬고 감시원 용어를 통일했습니다.
-- 경고문, 도움말, 모니터 조정, 에필로그·엔딩 화면의 한글 HD를 추가했습니다. 엔딩 뉴스 HD는 실제 게임에서 적용을 확인했습니다.
-- 오르골 화면의 그림이 사라지는 문제를 수정하고, 대사 말줄임표와 마인 스로어 개량형 이름을 정리했습니다.
-
-대사 검수 범위와 남은 확인 항목은 [검수 기록](docs/dialogue-review-20261027.md)에 있습니다. 수정 대사의 실게임 줄 넘침·타이밍과 Steam 팩 실행은 아직 확인하지 않았습니다.
-
 ## 설치 (권장)
 
 먼저 가지고 있는 판에 맞는 [Mulderland Enhancement Pack](https://www.mulderland.com/en/games/resident-evil-3-nemesis)을 설치합니다. Classic REbirth와 HD 텍스처가 함께 설치됩니다.
