@@ -1,6 +1,6 @@
 # BIOHAZARD 3 Korean HD
 
-Classic REbirth로 실행하는 **SourceNext 일본어판 BIOHAZARD 3 PC**에서 한글로 플레이할 수 있게 해 주는 모드입니다. BIOHAZARD 3 한글 패치 v1.0.15의 번역을 이 모드 전용 번역 데이터로 옮겼고, 글자·상태 화면·문서를 HD로 다시 그렸습니다.
+Classic REbirth로 실행하는 **SourceNext 일본어판 BIOHAZARD 3 PC**에서 한글로 플레이할 수 있게 해 주는 모드입니다. 
 
 - 대사, 아이템, 파일 목록, 문서, 상태 화면, REbirth 메뉴(키 설정, 저장, 불러오기)가 한글로 나옵니다.
 - HD 텍스처는 다음 글꼴로 그립니다.
@@ -49,7 +49,7 @@ GOG 팩에서는 실행을 확인했습니다. Steam 팩은 같은 실행 파일
 
 ## 직접 빌드
 
-번역은 `translation/`의 전용 데이터에서 빌드합니다. 한글 패치 설치 파일은 처음 한 번 가져올 때만 썼습니다(`tools/extract_translation.py`).
+번역은 `translation/`의 전용 데이터에서 빌드합니다.
 
 ```sh
 python -m pip install -r requirements.txt
@@ -72,7 +72,6 @@ RE3_GAME=<게임 폴더> python -m unittest discover -s tests
 
 ## 크레딧과 권리
 
-- **번역:** BIOHAZARD 3 한글 패치 v1.0.15 제작자. 이 모드는 그 번역을 전용 데이터로 옮겨 SourceNext 실행 파일에 적용하고, 문서를 같은 문장으로 다시 조판합니다. 번역 데이터는 MIT 라이선스 대상이 아닙니다.
 - **[Classic REbirth](https://classicrebirth.com/):** Gemini. 모드 수명주기와 ROFS 형식은 [RE3-Mod-SDK](https://github.com/Gemini-Loboto3/RE3-Mod-SDK)를 참고했습니다.
 - **글꼴:** Noto Sans KR, Noto Serif KR. SIL Open Font License이며 `assets/fonts/`에 라이선스가 함께 있습니다.
 - **코드:** [LICENSE](LICENSE).
