@@ -3,6 +3,27 @@
 Classic REbirth로 실행하는 **BIOHAZARD 3 PC**에서 한글로 플레이할 수 있게 해 주는 모드입니다.
 대사, 아이템, 파일 목록, 문서, 상태 화면, REbirth 메뉴(키 설정, 저장, 불러오기)가 한글로 나옵니다.
 
+## 스크린샷
+
+<table>
+  <tr>
+    <td width="50%"><img src="docs/screenshots/1.png" alt="인트로 영상 한글 자막"></td>
+    <td width="50%"><img src="docs/screenshots/2.png" alt="질과 다리오의 한글 대사"></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="docs/screenshots/3.png" alt="다리오의 한글 대사"></td>
+    <td width="50%"><img src="docs/screenshots/4.png" alt="리로딩 툴 아이템 설명"></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="docs/screenshots/5.png" alt="창고 열쇠 사용 메시지"></td>
+    <td width="50%"><img src="docs/screenshots/6.png" alt="용병의 일기 표지"></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="docs/screenshots/7.png" alt="용병의 일기 본문"></td>
+    <td width="50%"><img src="docs/screenshots/8.png" alt="시계탑 엽서 설명"></td>
+  </tr>
+</table>
+
 ## 설치 (권장)
 
 먼저 가지고 있는 판에 맞는 [Mulderland Enhancement Pack](https://www.mulderland.com/en/games/resident-evil-3-nemesis)을 설치합니다. Classic REbirth와 HD 텍스처가 함께 설치됩니다.
@@ -22,17 +43,6 @@ Classic REbirth로 실행하는 **BIOHAZARD 3 PC**에서 한글로 플레이할 
 
 - 게임 폴더의 `mod_korean_hd/`를 지웁니다.
 - `hires/`에 덮어쓴 HD 텍스처는 Enhancement Pack을 다시 설치해 되돌립니다.
-
-## 직접 빌드
-
-```sh
-python -m pip install -r requirements.txt
-python tools/setup.py --game <게임 폴더>          # mod_korean_hd/와 HD 텍스처를 빌드해 설치
-python tools/make_release.py --game <게임 폴더>   # DLL 빌드 + 설치 + 배포 zip
-RE3_GAME=<게임 폴더> python -m unittest discover -s tests
-```
-
-빌드에는 게임 원본 파일(`Rofs*.dat`, `BIOHAZARD(R) 3 PC.exe`, `ddraw.dll`, `hires/`)과 mingw(`i686-w64-mingw32-gcc`)가 필요합니다. `setup.py`는 덮어쓰는 파일을 `work/backups/`에 먼저 복사합니다.
 
 ## 크레딧과 권리
 
