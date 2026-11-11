@@ -373,7 +373,7 @@ static int module_image_size32(HMODULE module,uint32_t *size) {
     *size=nt->OptionalHeader.SizeOfImage;
     return 1;
 }
-__declspec(dllexport) void Modsdk_post_init(void) {
+static void korean_hd_init(void) {
     if(active) return;
     const unsigned char room_expected[]={0x8a,0x46,0x01,0x33,0xd2};
     const unsigned char upload_expected[]={0x8b,0x54,0x24,0x08,0x8b,0x0d,0x14,0x9c,0x53,0x00};
@@ -433,13 +433,25 @@ __declspec(dllexport) void Modsdk_post_init(void) {
     active=1;
     log_line("initialized RE3 Korean HD: %u room tables, %u font runs",u32(rooms+4),font_count);
 }
+#ifdef KOREAN_HD_ASI
+/* ASI loaders attach before Classic REbirth's ddraw.dll is loaded, so wait for it off the loader thread. */
+static DWORD WINAPI init_thread(LPVOID unused) {
+    (void)unused;
+    for(int i=0;i<600 && !GetModuleHandleA("ddraw.dll");i++) Sleep(50);
+    if(!GetModuleHandleA("ddraw.dll")) { log_line("REFUSED: ddraw.dll (Classic REbirth) never loaded"); return 0; }
+    Sleep(500);  /* let REbirth finish its own start-up patches before the signature checks */
+    korean_hd_init();
+    return 0;
+}
+#else
+/* REbirth mod module: the mod SDK calls these after REbirth has finished initialising. */
+__declspec(dllexport) void Modsdk_post_init(void) { korean_hd_init(); }
 __declspec(dllexport) void Modsdk_load(unsigned char *src,size_t pos,size_t size) { (void)src;(void)pos;(void)size; }
 __declspec(dllexport) void Modsdk_save(unsigned char **dst,size_t *size) { *dst=NULL; *size=0; }
+#endif
 BOOL WINAPI DllMain(HINSTANCE h,DWORD reason,LPVOID reserved) {
     (void)reserved;
     if(reason==DLL_PROCESS_ATTACH) {
-        (void)h;
-        /* REbirth manually maps this DLL, so its handle is not a Win32 module. */
         DWORD n=GetModuleFileNameA(NULL,exe_path,sizeof exe_path);
         if(!n || n>=sizeof exe_path) return FALSE;
         memcpy(folder,exe_path,n+1);
@@ -450,6 +462,13 @@ BOOL WINAPI DllMain(HINSTANCE h,DWORD reason,LPVOID reserved) {
         DeleteFileA(path);  /* one log per launch */
         log_line("RE3 Korean HD %s",KOREAN_HD_VERSION);
         log_line("attach exe=%s base=%p",exe_path,GetModuleHandleA(NULL));
+#ifdef KOREAN_HD_ASI
+        DisableThreadLibraryCalls(h);
+        HANDLE t=CreateThread(NULL,0,init_thread,NULL,0,NULL); if(!t) return FALSE;
+        CloseHandle(t);
+#else
+        (void)h;  /* REbirth maps this DLL by hand, so h is not a Win32 module handle */
+#endif
     }
     return TRUE;
 }
